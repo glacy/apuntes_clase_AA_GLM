@@ -1,0 +1,250 @@
+\documentclass[xcolor=pdftex, x11names,table, oneside,11pt]{book}
+%\usepackage{comment}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[spanish, es-lcroman,es-tabla]{babel}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{graphicx}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=3.5cm,rmargin=2.5cm}
+%\setcounter{tocdepth}{3}
+\usepackage{textcomp}
+%\usepackage{amstext}
+%\usepackage{setspace}
+\usepackage[toc, page]{appendix}
+\usepackage{tikz}
+%\usetikzlibrary{arrows.meta}
+%\usepackage{pgf}
+%\usepackage{pgfplots}
+%\usepgflibrary{decorations.pathmorphing}
+\usepackage{xcolor}
+\usepackage{tabulary}
+\usepackage{colortbl}
+%\usetikzlibrary{patterns}
+%\usepackage{tikz-3dplot}
+%\usepackage{etoolbox}
+\usepackage{hyperref}
+\usepackage{rotating}
+\usepackage{float}
+%\usepackage[section]{placeins}
+\usepackage{afterpage}
+%\usepackage{cleveref}
+\usepackage{array}
+%\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+%\usepackage[Sonny]{fncychap}
+%\usepackage{caption}
+%\usepackage[utopia]{quotchap}
+%\hyphenation{de-sa-pa-ri-ci\'on}
+%\onehalfspace
+\usepackage{titletoc}
+%\usepackage{titlesec}
+\usepackage[shortlabels]{enumitem}
+\usepackage{lipsum}
+\hyphenation{trabajos}
+%\titleformat*{\section*}{\color{c0}\normalfont\bfseries\LARGE}
+\usepackage{booktabs}
+\usepackage{multirow} 
+\usepackage{multicol} 
+\usepackage{adjustbox}
+\usepackage[most]{tcolorbox}
+\renewcommand{\arraystretch}{1.5}
+
+%\usepackage{roboto}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{\textbf{\textsc{EN REVISION}}}
+%\SetWatermarkLightness{0.7}
+%\SetWatermarkScale{2.5}
+%\DraftwatermarkOptions{color={[rgb]{0.98, 0.91, 0.71}}}
+
+%\newcommand{\art}[1]{{\section{Artículo \thesection  #1}}
+\newcounter{articulo}
+\refstepcounter{articulo}
+
+\newcounter{capitulo}
+\refstepcounter{capitulo}
+
+\newcommand{\art}[1]{
+\addcontentsline{toc}{section}{Art\'iculo \thearticulo. #1} 
+\section*{Artículo \thearticulo: #1} 
+\refstepcounter{articulo}
+}
+
+%%\addcontentsline{toc}{section}{Art\'iculo \thearticulo. Alcance}
+
+
+\newcommand{\Chapter}[1]{
+\addcontentsline{toc}{chapter}{Cap\'itulo \thecapitulo: #1} 
+\chapter*{Cap\'itulo \thecapitulo: #1}
+\refstepcounter{capitulo}
+}
+
+\definecolor{c1}{RGB}{143,85,69}
+\definecolor{c2}{RGB}{218,37,39}
+\definecolor{c3}{RGB}{231,121,25}
+\definecolor{c4}{RGB}{247,215,75}
+\definecolor{c5}{RGB}{0,146,64}
+\definecolor{c6}{RGB}{0,141,221}
+\definecolor{c7}{RGB}{153,71,121}
+\definecolor{c8}{RGB}{171,169,169}
+\definecolor{c9}{RGB}{255,255,255}
+\definecolor{c0}{RGB}{0,0,0}
+\definecolor{r1}{RGB}{246,205,162}
+\definecolor{azul1}{RGB}{15,70,124}
+\definecolor{azul2}{RGB}{63,108,150}
+\definecolor{r2}{RGB}{232,54,67}
+% \dottedcontents{<section>}[<left>]{<above-code>} {<label width>}{<leader width>}
+\dottedcontents{chapter}[0em]{\addvspace{1pc} \bfseries}{1em}{1pc}%[\addvspace{1pc}]
+\dottedcontents{section}[2em]{}{2em}{1pc}
+\dottedcontents{subsection}[5em]{}{3em}{1pc}
+\renewcommand{\contentsname}{\centering Contenidos}
+
+\makeatletter
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{myheadings}
+
+\renewcommand{\appendixname}{Apéndices}
+\renewcommand{\chaptername}{Cap\'itulo}
+
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices}
+\newcommand{\itcr}{Instituto Tecnol\'ogico de Costa Rica}
+\newcommand{\tfg}{Trabajo Final de Graduaci\'on}
+\newcommand{\tfgs}{Trabajos Finales de Graduaci\'on}
+\newcommand{\ef}{Escuela de F\'isica}
+\newcommand{\ualif}{Unidad Acad\'emica de la Licenciatura en Ingenier\'ia F\'isica}
+\newcommand{\cualif}{Consejo de \ualif}
+\newcommand{\lif}{Licenciatura en Ingenier\'ia F\'isica}
+\newcommand{\Def}[2]{\textbf{\texttt{#1:}}#2 \\[.25cm]}
+%\newcommand{\Def}[2]{\begin{minipage}{\textwidth}\\ \texttt{#1:}#2  \end{minipage} }
+
+\makeatletter
+\renewenvironment{titlepage}
+ {%
+  \if@twocolumn
+    \@restonecoltrue\onecolumn
+  \else
+    \@restonecolfalse\newpage
+  \fi
+  \thispagestyle{empty}%
+ }
+ {%
+  \if@restonecol
+    \twocolumn
+  \else
+    \newpage
+  \fi
+ }
+ 
+%\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{0pt}{\Huge}
+
+%\titleformat{\section}[box]{\Huge\bfseries}{-}{0pt}{\Huge\bfseries}
+
+%\titlespacing*{\chapter}{0pt}{-1.5cm}{1cm}
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+
+%glosario
+%\makeglossaries
+\setlength{\parindent}{0pt}
+
+\makeatletter
+\renewcommand{\@seccntformat}[1]{\llap{\textcolor{c1}{\csname the#1\endcsname}\hspace{1em}}}                    
+\renewcommand{\section}{\@startsection{section}
+{1}{0.9cm}%0.9 corre la numeraci�n hacia adentro
+{-4ex \@plus -1ex \@minus -.4ex}
+{1ex \@plus.2ex }
+{\color{c6}\normalfont\Large\sffamily\bfseries}}
+\renewcommand{\subsection}{\@startsection {subsection}{2}{\z@}
+{-3ex \@plus -0.1ex \@minus -.4ex}
+{0.5ex \@plus.2ex }
+{\color{c2}\normalfont\large\sffamily\bfseries}}
+\renewcommand{\subsubsection}{\@startsection {subsubsection}{3}{\z@}
+{-2ex \@plus -0.1ex \@minus -.2ex}
+{0.2ex \@plus.2ex }
+{\color{c3}\normalfont\small\sffamily\bfseries}}                        
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}
+{-2ex \@plus-.2ex \@minus .2ex}
+{0.1ex}
+{\normalfont\small\sffamily\bfseries}}
+\makeatother
+% Fin numeraci�n secciones
+
+
+
+%---------------------------------------------------------------------------------
+%  Entornos:  Ejemplo, teorema, proposici�n, lema, lista de ejercicios, 
+%             caja interludio, caja simple  
+%---------------------------------------------------------------------------------
+
+%  Cajas con el paquete  tcbcolor
+%  CONTADORES: ejemplo, definicion, lema, teorema, corolario, proposicion,ejercicio 
+\newcounter{tcbteo}[chapter]
+\renewcommand{\thetcbteo}{\thechapter.\arabic{tcbteo}}
+
+\newcounter{tcbdefi}[chapter]
+\renewcommand{\thetcbdefi}{\thechapter.\arabic{tcbdefi}}
+
+\newcounter{tcblema}[chapter]
+\renewcommand{\thetcblema}{\thechapter.\arabic{tcblema}}
+
+\newcounter{tcbcoro}[chapter]
+\renewcommand{\thetcbcoro}{\thechapter.\arabic{tcbcoro}}
+
+%  \newcounter{tcbListaEjercicios}[chapter]
+%  \renewcommand{\thetcbListaEjercicios}{\thechapter.\arabic{tcbListaEjercicios}}
+
+\newcounter{tcbpropo}[chapter]
+\renewcommand{\thetcbpropo}{\thechapter.\arabic{tcbpropo}}
+
+\newcounter{tcbvoca}[chapter]
+\renewcommand{\thetcbvoca}{\thechapter.\arabic{tcbvoca}}
+
+\newlength{\examlen}
+\tikzset{
+    wnodeTeorema/.style={%
+         rectangle,  top color=gray!5, bottom color=gray!5,
+         inner sep=1mm,anchor=west,font=\small\bf\sffamily},
+   wnodeminimo/.style={%
+         rectangle,  top color=white, bottom color=white,
+         text=azulF,inner sep=1mm,anchor=west,font=\small\bf\sffamily}      
+}
+
+%\begin{teorema}  o \begin{teorema}[de tal] o \begin{teorema}[][ref]
+% Teorema -----------------------------------------------------
+\newtcolorbox{wwteorema}[2][]{%
+arc=0mm,breakable,enhanced,colback=gray!5,boxrule=0pt,top=7mm,drop fuzzy shadow,
+fontupper=\normalsize,step and label={tcbteo}{pink},
+overlay unbroken = {\draw[color=pink,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
+%Caja de T�tulo: teo --
+\node[wnodeTeorema](tituloteo) at ([xshift=0pt, yshift=-4mm]frame.north west)
+{\textbf{\color{pink} #2}};
+%Borde superior --
+\draw[pink,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
+},%
+overlay first = {\draw[color=pink,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
+%Caja de T�tulo: teo --
+\node[wnodeTeorema](tituloteo) at ([xshift=0pt, yshift=-4mm]frame.north west)
+{\textbf{\color{pink} #2}};
+%Borde superior --
+\draw[pink,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
+},%
+% Mantener borde en cambio de p�gina 
+overlay last = {\draw[color=pink,line width=0.2pt] (frame.south west)--([xshift=0pt]frame.south east);},
+#1}
+%-
+
