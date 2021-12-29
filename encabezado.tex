@@ -6,6 +6,7 @@
 %\usepackage{amsfonts}
 %\usepackage{amssymb}
 %\usepackage{graphicx}
+\usepackage{svg}
 \usepackage[letterpaper]{geometry}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=3.5cm,rmargin=2.5cm}
 %\setcounter{tocdepth}{3}
@@ -50,8 +51,19 @@
 \usepackage{multicol} 
 \usepackage{adjustbox}
 \usepackage[most]{tcolorbox}
+\usepackage{watermark}
+\usepackage{csquotes}
+\usepackage{epigraph} 
+%\usepackage{blindtext}
+%\usepackage{quotchap}
 \renewcommand{\arraystretch}{1.5}
+\setlength{\epigraphwidth}{0.8\textwidth}
 
+
+\newcommand{\epigraphrulecolor}{c6}
+\makeatletter
+\renewcommand{\@epirule}{{\color{\epigraphrulecolor}\rule[.5ex]{\epigraphwidth}{\epigraphrule}}}
+\makeatother
 %\usepackage{roboto}
 %\usepackage{draftwatermark}
 %\SetWatermarkText{\textbf{\textsc{EN REVISION}}}
@@ -81,15 +93,12 @@
 \refstepcounter{capitulo}
 }
 
-\definecolor{c1}{RGB}{143,85,69}
-\definecolor{c2}{RGB}{218,37,39}
-\definecolor{c3}{RGB}{231,121,25}
-\definecolor{c4}{RGB}{247,215,75}
-\definecolor{c5}{RGB}{0,146,64}
-\definecolor{c6}{RGB}{0,141,221}
-\definecolor{c7}{RGB}{153,71,121}
-\definecolor{c8}{RGB}{171,169,169}
-\definecolor{c9}{RGB}{255,255,255}
+\definecolor{c1}{HTML}{E43C36}
+\definecolor{c2}{HTML}{1A829A}
+\definecolor{c3}{HTML}{1B6C88}
+\definecolor{c4}{HTML}{B9D2D4}
+\definecolor{c5}{HTML}{E43C36}
+\definecolor{c6}{HTML}{E7EAEA}
 \definecolor{c0}{RGB}{0,0,0}
 \definecolor{r1}{RGB}{246,205,162}
 \definecolor{azul1}{RGB}{15,70,124}
@@ -228,23 +237,40 @@
 % Teorema -----------------------------------------------------
 \newtcolorbox{wwteorema}[2][]{%
 arc=0mm,breakable,enhanced,colback=gray!5,boxrule=0pt,top=7mm,drop fuzzy shadow,
-fontupper=\normalsize,step and label={tcbteo}{pink},
-overlay unbroken = {\draw[color=pink,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
+fontupper=\normalsize,step and label={tcbteo}{c2},
+overlay unbroken = {\draw[color=c2,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
 %Caja de T�tulo: teo --
 \node[wnodeTeorema](tituloteo) at ([xshift=0pt, yshift=-4mm]frame.north west)
-{\textbf{\color{pink} #2}};
+{\textbf{\color{c2} #2}};
 %Borde superior --
-\draw[pink,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
+\draw[c2,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
 },%
-overlay first = {\draw[color=pink,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
+overlay first = {\draw[color=c2,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
 %Caja de T�tulo: teo --
 \node[wnodeTeorema](tituloteo) at ([xshift=0pt, yshift=-4mm]frame.north west)
-{\textbf{\color{pink} #2}};
+{\textbf{\color{c2} #2}};
 %Borde superior --
-\draw[pink,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
+\draw[c2,line width=2.5cm] ([xshift=1.25cm, yshift=0cm]frame.north west)-- +(\examlen,3pt);
 },%
 % Mantener borde en cambio de p�gina 
-overlay last = {\draw[color=pink,line width=0.2pt] (frame.south west)--([xshift=0pt]frame.south east);},
+overlay last = {\draw[color=c2,line width=0.2pt] (frame.south west)--([xshift=0pt]frame.south east);},
 #1}
 %-
+
+\newtcolorbox{mybox}[2][]{enhanced,skin=enhancedlast jigsaw,
+attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
+fonttitle=\bfseries\sffamily,varwidth boxed title=0.7\linewidth,
+colbacktitle=blue!45!white,colframe=red!50!black,
+interior style={top color=blue!10!white,bottom color=red!10!white},
+boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt},
+underlay boxed title={
+\fill[blue!45!white] (title.north west) -- (title.north east)
+-- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm)
+-- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm)
+-- (title.south west) -- cycle;
+\fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west)
+-- +(-0.4,0) -- +(0,-0.3) -- cycle;
+\fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east)
+-- +(0,-0.3) -- +(0.4,0) -- cycle; },
+title={#2},#1}
 

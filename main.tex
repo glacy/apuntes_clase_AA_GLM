@@ -6,7 +6,7 @@
 
 %\usepackage{droid} % fuentes android
 
-
+\watermark{\put(135,-15){\includegraphics[width=2in]{images/TEC-w.png}}}
 
 
 \begin{document}
@@ -23,43 +23,55 @@
 \mainmatter
 %\assignpagestyle{\chapter}{myheadings}
 \pagenumbering{arabic}
-%\include{reglamento}
+
+
+
+
+
+
+
 \chapter{Cosmolog\'ia y Galaxias}
+
+\epigraph{
+\textcolor{c4}{\texttt{¿De qué está hecho el universo? ¿Como comenzo? ¿Cómo ha evolucionado durante los 13.800 millones de años desde su origen? ¿Y cómo terminará? Estas son las preguntas que aborda la cosmología, el estudio del universo en su conjunto. La investigación en cosmología involucra astronomía, pero también física gravitacional, física de partículas y preguntas desafiantes sobre la interpretación de fenómenos que no podemos ver directamente, como la posible existencia de algo antes del Big Bang.}}}{\textit{\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{Center for Astrophysics // Harvard \& Smithsonian}}}
 
 \section{Teoría del Big Bang}
 
-\subsection{Ley de Hubble}
+\section{Ley de Hubble}
 
-\subsection{Formación galáctica}
+\section{Formación galáctica}
 
-\subsection{Tipos de galaxias}
+\section{Tipos de galaxias}
 
-\begin{wwteorema}{}
-Sea  Si adsasdasd entonces es verdadera para todo si se cumplen las dos condiciones siguientes
+\begin{wwteorema}{European Southern Observatory}
+\href{https://www.eso.org/}{https://www.eso.org/}
 \end{wwteorema}
 
-\newtcolorbox{mybox}[2][]{enhanced,skin=enhancedlast jigsaw,
-attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
-fonttitle=\bfseries\sffamily,varwidth boxed title=0.7\linewidth,
-colbacktitle=blue!45!white,colframe=red!50!black,
-interior style={top color=blue!10!white,bottom color=red!10!white},
-boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt},
-underlay boxed title={
-\fill[blue!45!white] (title.north west) -- (title.north east)
--- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm)
--- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm)
--- (title.south west) -- cycle;
-\fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west)
--- +(-0.4,0) -- +(0,-0.3) -- cycle;
-\fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east)
--- +(0,-0.3) -- +(0.4,0) -- cycle; },
-title={#2},#1}
-\begin{mybox}{My title}
-\lipsum[2]
-\end{mybox}
+\begin{wwteorema}{The Sloan Digital Sky Survey}
+\href{https://www.sdss.org/}{https://www.sdss.org/}
+\end{wwteorema}
+
+\begin{wwteorema}{Center for Astrophysics // Harvard \& Smithsonian}
+\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{https://www.cfa.harvard.edu/research/science-field/cosmology}
+\end{wwteorema}
+
+
+\begin{tikzpicture}[inner sep=4.5mm]
+\node[fill, rectangle, c5] at (0,0) {};
+\node[fill, rectangle, c3] at (1,0) {};
+\node[fill, rectangle, c2] at (2,0) {};
+\node[fill, rectangle, c4] at (3,0) {};
+\node[fill, rectangle, c6] at (4,0) {};
+\end{tikzpicture}
 
 \begin{figure}
 \includegraphics[width=\textwidth]{images/MW.jpg}
 \caption{V\'ia L\'actea. Cr\'editos G. Hüdepohl (\href{https://www.atacamaphoto.com/}{atacamaphoto.com})/ESO}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[width=\textwidth]{images/History-Universe-graphic.png}
+\caption{V\'ia L\'actea. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
 \end{figure}
 \end{document}
