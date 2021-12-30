@@ -35,13 +35,118 @@
 \epigraph{
 \textcolor{c4}{\texttt{¿De qué está hecho el universo? ¿Como comenzo? ¿Cómo ha evolucionado durante los 13.800 millones de años desde su origen? ¿Y cómo terminará? Estas son las preguntas que aborda la cosmología, el estudio del universo en su conjunto. La investigación en cosmología involucra astronomía, pero también física gravitacional, física de partículas y preguntas desafiantes sobre la interpretación de fenómenos que no podemos ver directamente, como la posible existencia de algo antes del Big Bang.}}}{\textit{\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{Center for Astrophysics // Harvard \& Smithsonian}}}
 
+\begin{tikzpicture}[remember picture,xshift=-20ex]
+\node (n1) at (-5,0) {};
+\node[circle,fill=red!50] at (n1){};
+\end{tikzpicture}
+
+
 \section{Teoría del Big Bang}
 
+\begin{comment}
+CBM
+
+The other breakthrough discovery in cosmology came from the observation that our
+Universe is expanding. This was initially detected by Hubble (Hubble 1929; Hubble &
+Humason 1931) based on observations of Cepheid variables in several nearby \nebulae".
+The expansion of the Universe have been conrmed recently from Supernovae Type Ia (SNe
+Ia)3 observations (Riess et al. 1998; Perlmutter et al. 1999), showing that the expansion
+rate is actually accelerating. This, together with the detection of the CBM, implies that
+our Universe was denser and hotter in the past.
+
+
+
+The expansion of the Universe is associated with the existence of a vacuum energy,
+usually referred as Dark Energy. According to measurements of anisotropies of the CMB
+(e.g., Smoot et al. 1992; Komatsu et al. 2011), of the SNe Ia magnitude-relation (Kowalski
+et al. 2008) and the galaxy clustering (for example, Tegmark et al. 2006; Reid et al. 2010),
+dark energy is estimated to contribute with about 73% of the total energy density of the
+Universe. Of the remainder, about 22% is considered to be in the form of a non-relativistic,
+non-interacting form of matter, called Dark Matter (DM)4, and only a 5% to be ordinary
+(baryonic) matter.
+Epoch of recombination.
+
+
+Standard Cosmological Model: CDM
+\end{comment}
 \section{Ley de Hubble}
 
+
+
+\begin{equation}
+R_{\mu \nu}-\frac{1}{2}g_{\mu \nu} R=\frac{8 \pi G}{c^4}T_{\mu \nu}-g_{\mu \nu}\Lambda
+\end{equation}
+
+\begin{equation}
+T_{\mu \nu}=(\rho + p)u_\mu u_\nu +pg_{\mu \nu}
+\end{equation}
+
+
+\begin{equation}
+\rho=\sum \rho_i=\textcolor{c2}{\rho_m} + \textcolor{c5}{\rho_r} + \rho_\Lambda + \rho_\kappa
+\end{equation}
+
+\begin{equation}
+ds^2=-dt^2+a^2(t)\left[\frac{dr^2}{1-\kappa r^2}+r^2d\vartheta^2+r^2\sin^2\vartheta d\vartheta^2\right]
+\end{equation}
+
+
+
+\begin{equation}
+\frac{\dot{a}^2}{a^2}+\frac{\kappa c^2}{a^2}=\frac{8 \pi G}{3}\rho+\frac{\Lambda c^2}{3}
+\end{equation}
+
+
+\begin{equation}
+\frac{\ddot{a}}{a}=-\frac{4 \pi G}{3} \left(\rho+\frac{3p}{c^2} \right)+\frac{\Lambda c^2}{3}
+\end{equation}
+
+$p=p(\rho)$
+
+\begin{equation}
+p_i=\omega_i \rho_i c^2
+\end{equation}
+
+\begin{equation}
+\dot{\rho_i}+3H(1+\omega_i)\rho_i
+\end{equation}
+
+
+\begin{equation}
+H\equiv H(t)\equiv \frac{da}{dt}\frac{1}{a}
+\end{equation}
+
+$H_0=H(t_0)=1$
+
+$H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1}$
+
+\begin{equation}
+\rho_c\equiv \frac{3H^2}{8\pi G}
+\end{equation}
+
+
+\begin{equation}
+\Omega_i(t)\equiv \frac{\rho_i(t)}{\rho_c(t)}
+\end{equation}
+
+
+\begin{equation}
+\Omega=\Omega_m + \Omega_r + \Omega_\Lambda + \Omega_\kappa
+\end{equation}
 \section{Formación galáctica}
 
 \section{Tipos de galaxias}
+\tikz[remember picture] \node[circle,fill=red!50] (n2) {};
+
+\citet{peebles2021extended}
+
+\citet{bag2021shape}
+
+\begin{tikzpicture}[remember picture]
+\draw [overlay,very thick,red,opacity=.5]
+(n1) -- (n2);
+\end{tikzpicture}
+
 
 \begin{wwteorema}{European Southern Observatory}
 \href{https://www.eso.org/}{https://www.eso.org/}
@@ -77,4 +182,12 @@
 \includegraphics[width=\textwidth]{images/History-Universe-graphic.png}
 \caption{V\'ia L\'actea. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
 \end{figure}
+
+
+
+1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m. 
+
+
+\bibliography{bibliografia}{}
+
 \end{document}
