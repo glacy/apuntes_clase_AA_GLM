@@ -11,9 +11,11 @@
 
 \node[yshift=15ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
 
-\node[yshift=-5ex] [below of=titulo] {\fontsize{25}{30}\selectfont
+\node[yshift=-5ex] (asignatura) [below of=titulo] {\fontsize{25}{30}\selectfont
 \textsc{
-\textcolor{azul1}{\textcolor{r2}{IF-XXX} T\'opicos de Astronom\'ia y Astrof\'isica}}};
+\textcolor{azul1}{\textcolor{r2}{IF-6008} T\'opicos de Astronom\'ia y Astrof\'isica}}};
+
+\node[yshift=-5ex] (profesor) [below of=asignatura] {\huge \texttt{Prof. Gerardo Lacy Mora}};
 
 \node[above, yshift=20ex] (semestre) at (current page.south) {\texttt{I Semestre 2022}};
 
