@@ -5,44 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abbrvnat.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-You've used 2 entries,
+You've used 3 entries,
             2773 wiz_defined-function locations,
-            599 strings with 4721 characters,
-and the built_in function-call counts, 664 in all, are:
-= -- 52
-> -- 31
+            611 strings with 5087 characters,
+and the built_in function-call counts, 1586 in all, are:
+= -- 126
+> -- 133
 < -- 2
-+ -- 11
-- -- 9
-* -- 36
-:= -- 103
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 9
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 30
-empty$ -- 65
-format.name$ -- 13
-if$ -- 137
++ -- 45
+- -- 42
+* -- 134
+:= -- 259
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 23
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 51
+empty$ -- 104
+format.name$ -- 47
+if$ -- 317
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 16
-num.names$ -- 8
-pop$ -- 27
+missing$ -- 1
+newline$ -- 24
+num.names$ -- 12
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 20
 quote$ -- 0
-skip$ -- 32
+skip$ -- 54
 stack$ -- 0
-substring$ -- 4
-swap$ -- 2
+substring$ -- 24
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 33
 warning$ -- 0
-while$ -- 6
+while$ -- 10
 width$ -- 0
-write$ -- 27
+write$ -- 46

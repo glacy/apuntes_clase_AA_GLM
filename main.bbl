@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,5 +12,15 @@ S.~Bag and L.~J. Liivamägi.
 \bibitem[Peebles(2021)]{peebles2021extended}
 P.~J.~E. Peebles.
 \newblock The extended local supercluster, 2021.
+
+\bibitem[Taghizadeh-Popp et~al.(2020)Taghizadeh-Popp, Kim, Lemson, Medvedev,
+  Raddick, Szalay, Thakar, Booker, Chhetri, Dobos, and et~al.]{sciserver}
+M.~Taghizadeh-Popp, J.~Kim, G.~Lemson, D.~Medvedev, M.~Raddick, A.~Szalay,
+  A.~Thakar, J.~Booker, C.~Chhetri, L.~Dobos, and et~al.
+\newblock Sciserver: A science platform for astronomy and beyond.
+\newblock \emph{Astronomy and Computing}, 33:\penalty0 100412, Oct 2020.
+\newblock ISSN 2213-1337.
+\newblock \doi{10.1016/j.ascom.2020.100412}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ascom.2020.100412}.
 
 \end{thebibliography}
