@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -8,6 +8,23 @@
 \bibitem[Bag and Liivamägi(2021)]{bag2021shape}
 S.~Bag and L.~J. Liivamägi.
 \newblock The shape distribution of superclusters in sdss dr 12, 2021.
+
+\bibitem[{Khetan, Nandita} et~al.(2021){Khetan, Nandita}, {Izzo, Luca},
+  {Branchesi, Marica}, {Wojtak, Radoslaw}, {Cantiello, Michele}, {Murugeshan,
+  Chandrashekar}, {Agnello, Adriano}, {Cappellaro, Enrico}, {Della Valle,
+  Massimo}, {Gall, Christa}, {Hjorth, Jens}, {Benetti, Stefano}, {Brocato,
+  Enzo}, {Burke, Jamison}, {Hiramatsu, Daichi}, {Howell, D. Andrew},
+  {Tomasella, Lina}, and {Valenti, Stefano}]{refId0}
+{Khetan, Nandita}, {Izzo, Luca}, {Branchesi, Marica}, {Wojtak, Radoslaw},
+  {Cantiello, Michele}, {Murugeshan, Chandrashekar}, {Agnello, Adriano},
+  {Cappellaro, Enrico}, {Della Valle, Massimo}, {Gall, Christa}, {Hjorth,
+  Jens}, {Benetti, Stefano}, {Brocato, Enzo}, {Burke, Jamison}, {Hiramatsu,
+  Daichi}, {Howell, D. Andrew}, {Tomasella, Lina}, and {Valenti, Stefano}.
+\newblock A new measurement of the hubble constant using type ia supernovae
+  calibrated with surface brightness fluctuations.
+\newblock \emph{A\&A}, 647:\penalty0 A72, 2021.
+\newblock \doi{10.1051/0004-6361/202039196}.
+\newblock URL \url{https://doi.org/10.1051/0004-6361/202039196}.
 
 \bibitem[Peebles(2021)]{peebles2021extended}
 P.~J.~E. Peebles.
@@ -22,5 +39,18 @@ M.~Taghizadeh-Popp, J.~Kim, G.~Lemson, D.~Medvedev, M.~Raddick, A.~Szalay,
 \newblock ISSN 2213-1337.
 \newblock \doi{10.1016/j.ascom.2020.100412}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.ascom.2020.100412}.
+
+\bibitem[{Wenger, M.} et~al.(2000){Wenger, M.}, {Ochsenbein, F.}, {Egret, D.},
+  {Dubois, P.}, {Bonnarel, F.}, {Borde, S.}, {Genova, F.}, {Jasniewicz, G.},
+  {Lalo\"e, S.}, {Lesteven, S.}, and {Monier, R.}]{simbad}
+{Wenger, M.}, {Ochsenbein, F.}, {Egret, D.}, {Dubois, P.}, {Bonnarel, F.},
+  {Borde, S.}, {Genova, F.}, {Jasniewicz, G.}, {Lalo\"e, S.}, {Lesteven, S.},
+  and {Monier, R.}
+\newblock The simbad astronomical database - the cds reference database for
+  astronomical objects.
+\newblock \emph{Astron. Astrophys. Suppl. Ser.}, 143\penalty0 (1):\penalty0
+  9--22, 2000.
+\newblock \doi{10.1051/aas:2000332}.
+\newblock URL \url{https://doi.org/10.1051/aas:2000332}.
 
 \end{thebibliography}
