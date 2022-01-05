@@ -5,9 +5,10 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abbrvnat.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "hubble0"
 You've used 5 entries,
             2773 wiz_defined-function locations,
-            629 strings with 6081 characters,
+            630 strings with 6088 characters,
 and the built_in function-call counts, 3713 in all, are:
 = -- 285
 > -- 400
@@ -46,3 +47,4 @@ warning$ -- 0
 while$ -- 18
 width$ -- 0
 write$ -- 80
+(There was 1 warning)

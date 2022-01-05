@@ -1,4 +1,4 @@
-\documentclass[xcolor=pdftex, x11names,table, oneside,11pt]{book}
+\documentclass[xcolor=pdftex, x11names,table, oneside,11pt]{article}
 \usepackage{natbib}
 \bibliographystyle{abbrvnat}
 %\setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
@@ -57,6 +57,7 @@
 \usepackage{watermark}
 \usepackage{csquotes}
 \usepackage{epigraph} 
+\usepackage{lastpage}
 %\usepackage{blindtext}
 %\usepackage{quotchap}
 \renewcommand{\arraystretch}{1.5}
@@ -117,10 +118,17 @@
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\pagestyle{myheadings}
+%\pagestyle{myheadings}
+\lhead{}
+\chead{}
+\rhead{\scriptsize{\thepage / \pageref{LastPage}}}
+\lfoot{\scriptsize{IF-6008 $-$ T\'opicos de Astronom\'ia y Astrof\'isica}}
+\cfoot{}
+\rfoot{\scriptsize{I Semestre 2022}}
+\renewcommand{\headrulewidth}{0pt}
 
 \renewcommand{\appendixname}{Ap\'endices}
-\renewcommand{\chaptername}{Cap\'itulo}
+%\renewcommand{\chaptername}{Cap\'itulo}
 \renewcommand{\bibname}{Referencias}
 
 \renewcommand{\appendixtocname}{Apéndices}
@@ -206,26 +214,26 @@
 
 %  Cajas con el paquete  tcbcolor
 %  CONTADORES: ejemplo, definicion, lema, teorema, corolario, proposicion,ejercicio 
-\newcounter{tcbteo}[chapter]
-\renewcommand{\thetcbteo}{\thechapter.\arabic{tcbteo}}
+%\newcounter{tcbteo}[chapter]
+%\renewcommand{\thetcbteo}{\thechapter.\arabic{tcbteo}}
 
-\newcounter{tcbdefi}[chapter]
-\renewcommand{\thetcbdefi}{\thechapter.\arabic{tcbdefi}}
+%\newcounter{tcbdefi}[chapter]
+%\renewcommand{\thetcbdefi}{\thechapter.\arabic{tcbdefi}}
 
-\newcounter{tcblema}[chapter]
-\renewcommand{\thetcblema}{\thechapter.\arabic{tcblema}}
+%\newcounter{tcblema}[chapter]
+%\renewcommand{\thetcblema}{\thechapter.\arabic{tcblema}}
 
-\newcounter{tcbcoro}[chapter]
-\renewcommand{\thetcbcoro}{\thechapter.\arabic{tcbcoro}}
+%\newcounter{tcbcoro}[chapter]
+%\renewcommand{\thetcbcoro}{\thechapter.\arabic{tcbcoro}}
 
 %  \newcounter{tcbListaEjercicios}[chapter]
 %  \renewcommand{\thetcbListaEjercicios}{\thechapter.\arabic{tcbListaEjercicios}}
 
-\newcounter{tcbpropo}[chapter]
-\renewcommand{\thetcbpropo}{\thechapter.\arabic{tcbpropo}}
+%\newcounter{tcbpropo}[chapter]
+%\renewcommand{\thetcbpropo}{\thechapter.\arabic{tcbpropo}}
 
-\newcounter{tcbvoca}[chapter]
-\renewcommand{\thetcbvoca}{\thechapter.\arabic{tcbvoca}}
+%\newcounter{tcbvoca}[chapter]
+%\renewcommand{\thetcbvoca}{\thechapter.\arabic{tcbvoca}}
 
 \newlength{\examlen}
 \tikzset{
@@ -241,7 +249,7 @@
 % Teorema -----------------------------------------------------
 \newtcolorbox{wwteorema}[2][]{%
 arc=0mm,breakable,enhanced,colback=gray!5,boxrule=0pt,top=7mm,drop fuzzy shadow,
-fontupper=\normalsize,step and label={tcbteo}{c2},
+fontupper=\normalsize,,
 overlay unbroken = {\draw[color=c2,line width=0.2pt] (frame.north west)--([xshift=0pt]frame.north east);
 %Caja de T�tulo: teo --
 \node[wnodeTeorema](tituloteo) at ([xshift=0pt, yshift=-4mm]frame.north west)
@@ -278,3 +286,4 @@ underlay boxed title={
 -- +(0,-0.3) -- +(0.4,0) -- cycle; },
 title={#2},#1}
 
+\watermark{\put(135,-15){\includegraphics[width=2in]{images/TEC-w.png}}}

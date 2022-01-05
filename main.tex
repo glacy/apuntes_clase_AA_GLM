@@ -1,36 +1,29 @@
-
 \input{encabezado}
 
-%\input{plantilla_mate} 
-%\usepackage[centering,text={18cm,23cm},showframe=false]{geometry}
 
-%\usepackage{droid} % fuentes android
-
-\watermark{\put(135,-15){\includegraphics[width=2in]{images/TEC-w.png}}}
 
 
 \begin{document}
 \pagenumbering{roman}
 	\urlstyle{rm} % Format style of \ur
+%\thispagestyle{empty}
 \input{portada}
 \pagebreak
-\frontmatter
+%\frontmatter
 
 %\addcontentsline{toc}{chapter}{Índice general}
+\thispagestyle{empty}
 \tableofcontents
 \pagebreak
 
-\mainmatter
+%\mainmatter
 %\assignpagestyle{\chapter}{myheadings}
 \pagenumbering{arabic}
 
 
 
 
-
-
-
-\chapter{Cosmolog\'ia y Galaxias}
+\section{Cosmolog\'ia y Galaxias}
 
 \epigraph{
 \textbf{\textcolor{c2}{\texttt{¿De qué está hecho el universo? ¿C\'omo comenzo? ¿Cómo ha evolucionado durante los 13.800 millones de años desde su origen? ¿Y cómo terminará? Estas son las preguntas que aborda la cosmología, el estudio del universo en su conjunto. La investigación en cosmología involucra astronomía, pero también física gravitacional, física de partículas y preguntas desafiantes sobre la interpretación de fenómenos que no podemos ver directamente, como la posible existencia de algo antes del Big Bang.}}}}{\textsc{\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{Center for Astrophysics // Harvard \& Smithsonian}}}
@@ -117,6 +110,7 @@ $H_0=H(t_0)=1$
 
 $H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1}$
 
+\citet{hubble0}
 \begin{equation}
 \rho_c\equiv \frac{3H^2}{8\pi G}
 \end{equation}
@@ -175,7 +169,7 @@ $k\equiv |\mathbf{k}|=2 \pi a/\lambda $
 
 \citet{refId0}
 
-\section*{Enlaces de inter\'es}
+\section{Enlaces de inter\'es}
 \begin{tikzpicture}[inner sep=4.5mm]
 \node[fill, rectangle, c5] at (0,0) {};
 \node[fill, rectangle, c3] at (1,0) {};
@@ -257,6 +251,11 @@ An image display and visualization tool for astronomical data}
 \begin{wwteorema}{Annual Review of Astronomy and Astrophysics}
 \href{https://www.annualreviews.org/journal/astro}{https://www.annualreviews.org/journal/astro}
 \end{wwteorema}
+
+\begin{wwteorema}{Monthly Notices of the Royal Astronomy Society}
+\href{https://academic.oup.com/mnras}{https://academic.oup.com/mnras}
+\end{wwteorema}
+
 
 \begin{tikzpicture}[inner sep=4.5mm]
 \node[fill, rectangle, c5] at (0,0) {};

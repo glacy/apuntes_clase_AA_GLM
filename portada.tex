@@ -1,12 +1,14 @@
+\thiswatermark{} 
 \thispagestyle{empty}
+
 \setcounter{page}{0}
 \begin{tikzpicture}
 [   overlay,
     remember picture,
 ]
-\fill[c1!10] (current page.north west)rectangle(current page.south east);
-\fill[azul2] (current page.north west)-- (-5,-4)--(18,-1)--(current page.north east);
-\fill[azul1] (current page.north west)-- (-5,-3)--(18,0)--(current page.north east);
+%\fill[c1!10] (current page.north west)rectangle(current page.south east);
+%\fill[azul2] (current page.north west)-- (-5,-4)--(18,-1)--(current page.north east);
+%\fill[azul1] (current page.north west)-- (-5,-3)--(18,0)--(current page.north east);
 
 
 \node[yshift=15ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
@@ -23,7 +25,10 @@
 
 \node [below of=lif] (ef){\texttt{Escuela de  F\'isica}};
 
-\node[yshift=-10ex, xshift=-30ex] at (current page.north east) {\includegraphics[width=7cm]{images/TEC.png}};
+%\node[yshift=-10ex, xshift=-30ex] at (current page.north east) {\includegraphics[width=7cm]{images/TEC.png}};
 
+\node[yshift=35ex, text width=\pdfpagewidth, align=center, above of=titulo] {\includegraphics[width=\pdfpagewidth]{images/MW.jpg}};
+
+\node[above of=semestre,yshift=10ex] {\includegraphics[width=5cm]{images/TEC-w.png}};
 \end{tikzpicture}
 	
