@@ -1,4 +1,4 @@
-\documentclass[xcolor=pdftex, x11names,table, oneside,11pt]{article}
+\documentclass[xcolor=pdftex,11pt]{article}
 \usepackage{natbib}
 \bibliographystyle{abbrvnat}
 %\setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
@@ -9,26 +9,27 @@
 %\usepackage{amsfonts}
 %\usepackage{amssymb}
 %\usepackage{graphicx}
-\usepackage{svg}
+%\usepackage{svg}
 \usepackage[letterpaper]{geometry}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=3.5cm,rmargin=2.5cm}
 %\setcounter{tocdepth}{3}
-\usepackage{textcomp}
+%\usepackage{textcomp}
 %\usepackage{amstext}
 %\usepackage{setspace}
-\usepackage[toc, page]{appendix}
+%\usepackage[toc, page]{appendix}
 \usepackage{tikz}
 %\usetikzlibrary{arrows.meta}
 %\usepackage{pgf}
 %\usepackage{pgfplots}
 %\usepgflibrary{decorations.pathmorphing}
+%\usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{tabulary}
 \usepackage{colortbl}
 %\usetikzlibrary{patterns}
 %\usepackage{tikz-3dplot}
 %\usepackage{etoolbox}
-\usepackage[citecolor=c5]{hyperref}
+\usepackage[citecolor=c4]{hyperref}
 \usepackage{rotating}
 \usepackage{float}
 %\usepackage[section]{placeins}
@@ -58,13 +59,14 @@
 \usepackage{csquotes}
 \usepackage{epigraph} 
 \usepackage{lastpage}
+\usepackage{ragged2e}
 %\usepackage{blindtext}
 %\usepackage{quotchap}
 \renewcommand{\arraystretch}{1.5}
 \setlength{\epigraphwidth}{0.8\textwidth}
 
 
-\newcommand{\epigraphrulecolor}{c6}
+\newcommand{\epigraphrulecolor}{c5}
 \makeatletter
 \renewcommand{\@epirule}{{\color{\epigraphrulecolor}\rule[.5ex]{\epigraphwidth}{\epigraphrule}}}
 \makeatother
@@ -98,11 +100,10 @@
 }
 
 \definecolor{c1}{HTML}{E43C36}
-\definecolor{c2}{HTML}{1A829A}
-\definecolor{c3}{HTML}{1B6C88}
-\definecolor{c4}{HTML}{B9D2D4}
-\definecolor{c5}{HTML}{E43C36}
-\definecolor{c6}{HTML}{E7EAEA}
+\definecolor{c2}{HTML}{183059}
+\definecolor{c3}{HTML}{8bbeb2}
+\definecolor{c4}{HTML}{f4c095}
+\definecolor{c5}{HTML}{d9bdc5}
 \definecolor{c0}{RGB}{0,0,0}
 \definecolor{r1}{RGB}{246,205,162}
 \definecolor{azul1}{RGB}{15,70,124}
@@ -113,7 +114,8 @@
 \dottedcontents{section}[2em]{}{2em}{1pc}
 \dottedcontents{subsection}[5em]{}{3em}{1pc}
 \renewcommand{\contentsname}{\centering Contenidos}
-
+\newcommand{\Mbox}[1]{\mbox{\scriptsize{#1}}}
+\newcommand{\Textit}[1]{\textsf{\textcolor{c2}{#1}}}
 \makeatletter
 
 \usepackage{fancyhdr}
@@ -121,18 +123,19 @@
 %\pagestyle{myheadings}
 \lhead{}
 \chead{}
-\rhead{\scriptsize{\thepage / \pageref{LastPage}}}
+\rhead{\scriptsize{\thepage/\pageref{LastPage}}}
 \lfoot{\scriptsize{IF-6008 $-$ T\'opicos de Astronom\'ia y Astrof\'isica}}
 \cfoot{}
 \rfoot{\scriptsize{I Semestre 2022}}
 \renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\textit}{\textcolor{c4}{\textit}}
 
 \renewcommand{\appendixname}{Ap\'endices}
 %\renewcommand{\chaptername}{Cap\'itulo}
-\renewcommand{\bibname}{Referencias}
+\renewcommand{\refname}{Referencias}
 
-\renewcommand{\appendixtocname}{Apéndices}
-\renewcommand{\appendixpagename}{Apéndices}
+%\renewcommand{\appendixtocname}{Apéndices}
+%\renewcommand{\appendixpagename}{Apéndices}
 \newcommand{\itcr}{Instituto Tecnol\'ogico de Costa Rica}
 \newcommand{\tfg}{Trabajo Final de Graduaci\'on}
 \newcommand{\tfgs}{Trabajos Finales de Graduaci\'on}
@@ -173,9 +176,9 @@
 
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
+    linkcolor=c3,
+    filecolor=c4,      
+    urlcolor=c5,
     pdfpagemode=FullScreen,
     }
 
@@ -287,3 +290,12 @@ underlay boxed title={
 title={#2},#1}
 
 \watermark{\put(135,-15){\includegraphics[width=2in]{images/TEC-w.png}}}
+
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \color{c1}{\hrule width .45\textwidth height 1pt}
+  \kern 2pt
+}
+
+\hyphenation{con-si-de-rar-se}
+

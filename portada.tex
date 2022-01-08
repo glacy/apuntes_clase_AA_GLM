@@ -10,12 +10,12 @@
 %\fill[azul2] (current page.north west)-- (-5,-4)--(18,-1)--(current page.north east);
 %\fill[azul1] (current page.north west)-- (-5,-3)--(18,0)--(current page.north east);
 
-
-\node[yshift=15ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
+\fill[c1!10] (current page.north west)rectangle(current page.east);
+\node[yshift=25ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
 
 \node[yshift=-5ex] (asignatura) [below of=titulo] {\fontsize{25}{30}\selectfont
 \textsc{
-\textcolor{azul1}{\textcolor{r2}{IF-6008} T\'opicos de Astronom\'ia y Astrof\'isica}}};
+\textcolor{azul1}{\textcolor{c1}{IF-6008} T\'opicos de Astronom\'ia y Astrof\'isica}}};
 
 \node[yshift=-5ex] (profesor) [below of=asignatura] {\huge \texttt{Prof. Gerardo Lacy Mora}};
 
@@ -27,7 +27,7 @@
 
 %\node[yshift=-10ex, xshift=-30ex] at (current page.north east) {\includegraphics[width=7cm]{images/TEC.png}};
 
-\node[yshift=35ex, text width=\pdfpagewidth, align=center, above of=titulo] {\includegraphics[width=\pdfpagewidth]{images/MW.jpg}};
+\node[yshift=25ex, text width=\pdfpagewidth, align=center, above of=titulo] {\includegraphics[width=\pdfpagewidth]{images/MW.jpg}};
 
 \node[above of=semestre,yshift=10ex] {\includegraphics[width=5cm]{images/TEC-w.png}};
 \end{tikzpicture}

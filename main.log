@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  5 JAN 2022 05:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  8 JAN 2022 08:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -28,55 +28,60 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count190
 )
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
-Package: svg 2020/11/26 v2.02k (include SVG pictures)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok-3.34.sty
-Package: scrlfile-hook-3.34 2021/11/13 v3.35 KOMA-Script package (using LaTeX h
-ooks)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
-))) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box50
 )
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
-ty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -95,113 +100,43 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
-) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
-\c@svg@param@lastpage=\count191
-\svg@box=\box50
-\c@svg@param@currpage=\count192
-) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen141
-\ar@mcellbox=\box51
-\extrarowheight=\dimen142
-\NC@list=\toks17
-\extratabsurround=\skip51
-\backup@length=\skip52
-\ar@cellbox=\box52
-)
-\everycr=\toks18
-\minrowclearance=\skip53
-)
-\rownum=\count193
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\x11nam.def
-File: x11nam.def 2016/05/11 v2.12 Predefined colors according to Unix/X11 (UK)
-))
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
-.sty
-Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
-
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
 sty
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen143
-\pgfutil@tempdimb=\dimen144
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box53
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks20
-\pgfkeys@temptoks=\toks21
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks22
+\pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen145
-\pgf@y=\dimen146
-\pgf@xa=\dimen147
-\pgf@ya=\dimen148
-\pgf@xb=\dimen149
-\pgf@yb=\dimen150
-\pgf@xc=\dimen151
-\pgf@yc=\dimen152
-\pgf@xd=\dimen153
-\pgf@yd=\dimen154
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count194
 \c@pgf@countb=\count195
 \c@pgf@countc=\count196
 \c@pgf@countd=\count197
-\t@pgf@toka=\toks23
-\t@pgf@tokb=\toks24
-\t@pgf@tokc=\toks25
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
 \pgf@sys@id@count=\count198
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -228,42 +163,23 @@ File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\Gm@cnth=\count267
-\Gm@cntv=\count268
-\c@Gm@tempcnt=\count269
-\Gm@bindingoffset=\dimen155
-\Gm@wd@mp=\dimen156
-\Gm@odd@mp=\dimen157
-\Gm@even@mp=\dimen158
-\Gm@layoutwidth=\dimen159
-\Gm@layoutheight=\dimen160
-\Gm@layouthoffset=\dimen161
-\Gm@layoutvoffset=\dimen162
-\Gm@dimlist=\toks26
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
-Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count270
-\c@@ppsavesec=\count271
-\c@@ppsaveapp=\count272
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 e.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
@@ -276,12 +192,12 @@ code.tex
 code.tex)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen163
-\pgfmath@count=\count273
-\pgfmath@box=\box54
-\pgfmath@toks=\toks27
-\pgfmath@stack@operand=\toks28
-\pgfmath@stack@operation=\toks29
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count267
+\pgfmath@box=\box51
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -303,59 +219,59 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count274
+\c@pgfmathroundto@lastzeros=\count268
 ))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen164
-\pgf@picmaxx=\dimen165
-\pgf@picminy=\dimen166
-\pgf@picmaxy=\dimen167
-\pgf@pathminx=\dimen168
-\pgf@pathmaxx=\dimen169
-\pgf@pathminy=\dimen170
-\pgf@pathmaxy=\dimen171
-\pgf@xx=\dimen172
-\pgf@xy=\dimen173
-\pgf@yx=\dimen174
-\pgf@yy=\dimen175
-\pgf@zx=\dimen176
-\pgf@zy=\dimen177
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen178
-\pgf@path@lasty=\dimen179
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen180
-\pgf@shorten@start@additional=\dimen181
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count275
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count269
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen182
+\pgflinewidth=\dimen180
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen183
-\pgf@pt@y=\dimen184
-\pgf@pt@temp=\dimen185
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -372,14 +288,14 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen186
+\pgfarrowsep=\dimen184
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen187
-\pgf@sys@shading@range@num=\count276
-\pgf@shadingcount=\count277
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -388,7 +304,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box58
+\pgfexternal@startupbox=\box55
 ))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -409,7 +325,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box59
+\pgfnodeparttextbox=\box56
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -418,8 +334,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen188
-\pgf@nodesepend=\dimen189
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -440,10 +356,10 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
-\pgffor@iter=\dimen190
-\pgffor@skip=\dimen191
-\pgffor@stack=\toks30
-\pgffor@toks=\toks31
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
 ))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -452,34 +368,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count278
-\pgfplotmarksize=\dimen192
+\pgf@plot@mark@count=\count272
+\pgfplotmarksize=\dimen190
 )
-\tikz@lastx=\dimen193
-\tikz@lasty=\dimen194
-\tikz@lastxsaved=\dimen195
-\tikz@lastysaved=\dimen196
-\tikz@lastmovetox=\dimen197
-\tikz@lastmovetoy=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen256
-\tikz@figbox=\box60
-\tikz@figbox@bg=\box61
-\tikz@tempbox=\box62
-\tikz@tempbox@bg=\box63
-\tikztreelevel=\count279
-\tikznumberofchildren=\count280
-\tikznumberofcurrentchild=\count281
-\tikz@fig@count=\count282
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikz@lastmovetox=\dimen195
+\tikz@lastmovetoy=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count283
-\pgfmatrixcurrentcolumn=\count284
-\pgf@matrix@numberofcolumns=\count285
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
 )
-\tikz@expandcount=\count286
+\tikz@expandcount=\count280
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -487,15 +403,47 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count287
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen199
+\ar@mcellbox=\box61
+\extrarowheight=\dimen256
+\NC@list=\toks30
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box62
+)
+\TY@count=\count281
 \TY@linewidth=\dimen257
 \tymin=\dimen258
 \tymax=\dimen259
 \TY@tablewidth=\dimen260
 )
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks31
+\minrowclearance=\skip53
+)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
 ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -514,12 +462,15 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 .sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen261
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
+\Hy@linkcounter=\count282
+\Hy@pagecounter=\count283
  (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -536,7 +487,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count290
+\Hy@SavedSpaceFactor=\count284
  (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -549,7 +500,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count291
+\c@Hy@tempcnt=\count285
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
@@ -566,7 +517,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count292
+\Fld@menulength=\count286
 \Field@Width=\dimen263
 \Fld@charsize=\dimen264
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -583,9 +534,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count287
+\c@Item=\count288
+\c@Hfootnote=\count289
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -596,8 +547,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
+\Fld@listcount=\count290
+\c@bookmark@seq@number=\count291
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -618,40 +569,40 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count298
+\c@r@tfl@t=\count292
 \rotFPtop=\skip55
 \rotFPbot=\skip56
-\rot@float@box=\box64
+\rot@float@box=\box63
 \rot@mess@toks=\toks32
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count299
+\c@float@type=\count293
 \float@exts=\toks33
-\float@box=\box65
+\float@box=\box64
 \@float@everytoks=\toks34
-\@floatcapt=\box66
+\@floatcapt=\box65
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
-\AP@partial=\box67
-\AP@footins=\box68
+\AP@partial=\box66
+\AP@footins=\box67
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count300
-\calc@Bcount=\count301
+\calc@Acount=\count294
+\calc@Bcount=\count295
 \calc@Adimen=\dimen265
 \calc@Bdimen=\dimen266
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count302
+\calc@Ccount=\count296
 \calc@Cskip=\skip59
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
@@ -666,13 +617,13 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count303
-\AM@pagebox=\box69
+\pdfpages@includegraphics@status=\count297
+\AM@pagebox=\box68
 \AM@global@opts=\toks36
-\AM@pagecnt=\count304
+\AM@pagecnt=\count298
 \AM@toc@title=\toks37
-\c@AM@survey=\count305
-\AM@templatesizebox=\box70
+\c@AM@survey=\count299
+\AM@templatesizebox=\box69
 ) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen272
@@ -681,9 +632,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip60
 \enit@outerparindent=\dimen273
 \enit@toks=\toks38
-\enit@inbox=\box71
-\enit@count@id=\count306
-\enitdp@description=\count307
+\enit@inbox=\box70
+\enit@count@id=\count300
+\enitdp@description=\count301
 ) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
@@ -693,15 +644,15 @@ Package: expl3 2021-08-27 L3 programming layer (loader)
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count308
-\l__pdf_internal_box=\box72
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box71
 ))
 Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count309
-\l__lipsum_a_int=\count310
-\l__lipsum_b_int=\count311
+\g__lipsum_par_int=\count303
+\l__lipsum_a_int=\count304
+\l__lipsum_b_int=\count305
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
@@ -716,44 +667,45 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen281
 \cmidrulekern=\dimen282
 \defaultaddspace=\dimen283
-\@cmidla=\count312
-\@cmidlb=\count313
+\@cmidla=\count306
+\@cmidlb=\count307
 \@aboverulesep=\dimen284
 \@belowrulesep=\dimen285
-\@thisruleclass=\count314
-\@lastruleclass=\count315
+\@thisruleclass=\count308
+\@lastruleclass=\count309
 \@thisrulewidth=\dimen286
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip61
-\multirow@cntb=\count316
+\multirow@cntb=\count310
 \multirow@dima=\skip62
 \bigstrutjot=\dimen287
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count317
-\mult@box=\box73
+\c@tracingmulticols=\count311
+\mult@box=\box72
 \multicol@leftmargin=\dimen288
-\c@unbalance=\count318
-\c@collectmore=\count319
-\doublecol@number=\count320
-\multicoltolerance=\count321
-\multicolpretolerance=\count322
+\c@unbalance=\count312
+\c@collectmore=\count313
+\doublecol@number=\count314
+\multicoltolerance=\count315
+\multicolpretolerance=\count316
 \full@width=\dimen289
 \page@free=\dimen290
 \premulticols=\dimen291
 \postmulticols=\dimen292
 \multicolsep=\skip63
 \multicolbaselineskip=\skip64
-\partial@page=\box74
-\last@line=\box75
+\partial@page=\box73
+\last@line=\box74
 \maxbalancingoverflow=\dimen293
-\mult@rightbox=\box76
-\mult@grightbox=\box77
-\mult@gfirstbox=\box78
-\mult@firstbox=\box79
+\mult@rightbox=\box75
+\mult@grightbox=\box76
+\mult@gfirstbox=\box77
+\mult@firstbox=\box78
+\@tempa=\box79
 \@tempa=\box80
 \@tempa=\box81
 \@tempa=\box82
@@ -790,16 +742,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box113
 \@tempa=\box114
 \@tempa=\box115
-\@tempa=\box116
-\c@minrows=\count323
-\c@columnbadness=\count324
-\c@finalcolumnbadness=\count325
+\c@minrows=\count317
+\c@columnbadness=\count318
+\c@finalcolumnbadness=\count319
 \last@try=\dimen294
 \multicolovershoot=\dimen295
 \multicolundershoot=\dimen296
-\mult@nat@firstbox=\box117
-\colbreak@box=\box118
-\mc@col@check@num=\count326
+\mult@nat@firstbox=\box116
+\colbreak@box=\box117
+\mc@col@check@num=\count320
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
@@ -811,7 +762,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count327
+\XKV@depth=\count321
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
@@ -824,7 +775,7 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
 ty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box119
+\collectedbox=\box118
 )
 \tc@llx=\dimen297
 \tc@lly=\dimen298
@@ -846,11 +797,11 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count328
+\c@checkoddpage=\count322
 ) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box120
-\sift@deathcycles=\count329
+\@vwid@box=\box119
+\sift@deathcycles=\count323
 \@vwid@loff=\dimen309
 \@vwid@roff=\dimen310
 ))
@@ -864,36 +815,41 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
 \@envbody=\toks43
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count330
+\etb@tempcnta=\count324
 )
-\tcb@titlebox=\box121
-\tcb@upperbox=\box122
-\tcb@lowerbox=\box123
-\tcb@phantombox=\box124
-\c@tcbbreakpart=\count331
-\c@tcblayer=\count332
-\c@tcolorbox@number=\count333
+\tcb@titlebox=\box120
+\tcb@upperbox=\box121
+\tcb@lowerbox=\box122
+\tcb@phantombox=\box123
+\c@tcbbreakpart=\count325
+\c@tcblayer=\count326
+\c@tcolorbox@number=\count327
+\tcb@temp=\box124
 \tcb@temp=\box125
 \tcb@temp=\box126
 \tcb@temp=\box127
-\tcb@temp=\box128
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.cod
 e.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.51'
-\c@tcbrastercolumn=\count334
-\c@tcbrasterrow=\count335
-\c@tcbrasternum=\count336
-\c@tcbraster=\count337
+\c@tcbrastercolumn=\count328
+\c@tcbrasterrow=\count329
+\c@tcbrasternum=\count330
+\c@tcbraster=\count331
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code
 .tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.51'
-\tcb@waterbox=\box129
+\tcb@waterbox=\box128
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsa
 w.code.tex
@@ -905,10 +861,10 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '4.51'
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\pdfcol.sty
 Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
 )
-Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
-\tcb@testbox=\box130
-\tcb@totalupperbox=\box131
-\tcb@totallowerbox=\box132
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box129
+\tcb@totalupperbox=\box130
+\tcb@totallowerbox=\box131
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code
 .tex
@@ -937,30 +893,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count338
+\inf@bad=\count332
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count339
-\leftroot@=\count340
+\uproot@=\count333
+\leftroot@=\count334
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count341
-\DOTSCASE@=\count342
+\classnum@=\count335
+\DOTSCASE@=\count336
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box133
-\strutbox@=\box134
+\Mathstrutbox@=\box132
+\strutbox@=\box133
 \big@size=\dimen313
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count343
-\c@MaxMatrixCols=\count344
+\macc@depth=\count337
+\c@MaxMatrixCols=\count338
 \dotsspace@=\muskip17
-\c@parentequation=\count345
-\dspbrk@lvl=\count346
+\c@parentequation=\count339
+\dspbrk@lvl=\count340
 \tag@help=\toks45
-\row@=\count347
-\column@=\count348
-\maxfields@=\count349
+\row@=\count341
+\column@=\count342
+\maxfields@=\count343
 \andhelp@=\toks46
 \eqnshift@=\dimen314
 \alignsep@=\dimen315
@@ -981,7 +937,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '4.51'
 \tcbfitdim=\dimen320
 \tcb@lowerfitdim=\dimen321
 \tcb@upperfitdim=\dimen322
-\tcb@cur@hbadness=\count350
+\tcb@cur@hbadness=\count344
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbxparse.cod
 e.tex
@@ -999,24 +955,24 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.51'
 ode.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '4.51'
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count351
-\lst@gtempboxa=\box135
+\lst@mode=\count345
+\lst@gtempboxa=\box134
 \lst@token=\toks49
-\lst@length=\count352
+\lst@length=\count346
 \lst@currlwidth=\dimen323
-\lst@column=\count353
-\lst@pos=\count354
+\lst@column=\count347
+\lst@pos=\count348
 \lst@lostspace=\dimen324
 \lst@width=\dimen325
-\lst@newlines=\count355
-\lst@lineno=\count356
+\lst@newlines=\count349
+\lst@lineno=\count350
 \lst@maxwidth=\dimen326
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
-\lst@framebox=\box136
+\c@lstnumber=\count351
+\lst@skipnumbers=\count352
+\lst@framebox=\box135
 )
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1030,8 +986,11 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '4.51'
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing
 .code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '4.51'
-)
-\c@tcblisting=\count359
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count353
 ))
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsut
 f8.sty
@@ -1070,12 +1029,12 @@ Library (tcolorbox): 'tcbposter.code.tex' version '4.51'
 Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
 ) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count360
-\csq@gtype=\count361
-\csq@glevel=\count362
-\csq@qlevel=\count363
-\csq@maxlvl=\count364
-\csq@tshold=\count365
+\csq@reset=\count354
+\csq@gtype=\count355
+\csq@glevel=\count356
+\csq@qlevel=\count357
+\csq@maxlvl=\count358
+\csq@tshold=\count359
 \csq@ltx@everypar=\toks50
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -1099,24 +1058,40 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 \epigraphrule=\skip71
 ) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+) (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/02/05 v3.0 ragged2e Package
+\CenteringLeftskip=\skip72
+\RaggedLeftLeftskip=\skip73
+\RaggedRightLeftskip=\skip74
+\CenteringRightskip=\skip75
+\RaggedLeftRightskip=\skip76
+\RaggedRightRightskip=\skip77
+\CenteringParfillskip=\skip78
+\RaggedLeftParfillskip=\skip79
+\RaggedRightParfillskip=\skip80
+\JustifyingParfillskip=\skip81
+\CenteringParindent=\skip82
+\RaggedLeftParindent=\skip83
+\RaggedRightParindent=\skip84
+\JustifyingParindent=\skip85
 )
-\c@articulo=\count366
-\c@capitulo=\count367
+\c@articulo=\count360
+\c@capitulo=\count361
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip72
-\f@nch@O@elh=\skip73
-\f@nch@O@erh=\skip74
-\f@nch@O@olh=\skip75
-\f@nch@O@orh=\skip76
-\f@nch@O@elf=\skip77
-\f@nch@O@erf=\skip78
-\f@nch@O@olf=\skip79
-\f@nch@O@orf=\skip80
+\f@nch@headwidth=\skip86
+\f@nch@O@elh=\skip87
+\f@nch@O@erh=\skip88
+\f@nch@O@olh=\skip89
+\f@nch@O@orh=\skip90
+\f@nch@O@elf=\skip91
+\f@nch@O@erf=\skip92
+\f@nch@O@olf=\skip93
+\f@nch@O@orf=\skip94
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 180.
-\examlen=\skip81
+Package hyperref Info: Option `colorlinks' set `true' on input line 183.
+\examlen=\skip95
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -1127,50 +1102,25 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen327
-\scratchbox=\box137
-\nofMPsegments=\count369
-\nofMParguments=\count370
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen328
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
-\everyMPtoPDFconversion=\toks52
-)
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1205,7 +1155,34 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 6.
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count362
+\scratchdimen=\dimen327
+\scratchbox=\box136
+\nofMPsegments=\count363
+\nofMParguments=\count364
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count365
+\MPscratchDim=\dimen328
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
+\everyMPtoPDFconversion=\toks52
+)
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 3.
+
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1216,11 +1193,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count374
+\c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1233,7 +1210,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count375
+\c@lstlisting=\count369
 
 (C:\Users\glacy\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -1242,7 +1219,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 6.
+(lastpage)             ! on input line 3.
 
 (portada.tex
 <images/MW.jpg, id=66, 7256.10875pt x 2413.015pt>
@@ -1262,118 +1239,224 @@ Package pdftex.def Info: images/TEC-w.png  used on input line 32.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
+<images/hubble_ugc11537_potw2146a.jpg, id=92, 3009.3228pt x 2610.3924pt>
+File: images/hubble_ugc11537_potw2146a.jpg Graphic file (type jpg)
+<use images/hubble_ugc11537_potw2146a.jpg>
+Package pdftex.def Info: images/hubble_ugc11537_potw2146a.jpg  used on input li
+ne 20.
+(pdftex.def)             Requested size: 614.295pt x 532.8237pt.
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 18.
+Package pdftex.def Info: images/TEC-w.png  used on input line 25.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [1]
+ [1 <./images/hubble_ugc11537_potw2146a.jpg>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 29.
-
-
-Package natbib Warning: Citation `hubble0' on page 1 undefined on input line 11
-3.
-
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 28.
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 127.
-(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
-[1]
-File: images/TEC-w.png Graphic file (type png)
-<use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 200.
+Package pdftex.def Info: images/TEC-w.png  used on input line 31.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
  [2]
+<images/101080_7yrFullSky_WMAP_1024W.png, id=108, 1027.84pt x 513.92pt>
+File: images/101080_7yrFullSky_WMAP_1024W.png Graphic file (type png)
+<use images/101080_7yrFullSky_WMAP_1024W.png>
+Package pdftex.def Info: images/101080_7yrFullSky_WMAP_1024W.png  used on input
+ line 80.
+(pdftex.def)             Requested size: 443.57848pt x 221.78899pt.
+<images/F2.large.jpg, id=113, 1284.8pt x 774.895pt>
+File: images/F2.large.jpg Graphic file (type jpg)
+<use images/F2.large.jpg>
+Package pdftex.def Info: images/F2.large.jpg  used on input line 88.
+(pdftex.def)             Requested size: 443.57848pt x 267.52824pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+
+ []
+
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 253.
+Package pdftex.def Info: images/TEC-w.png  used on input line 99.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [3]
+[1pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99 
+      <./images/101080_7yrFullSky_WMAP_1024W.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
+
+ []
+
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 109.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.109 
+       <./images/F2.large.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 149.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
+
+ []
+
+(paleta.tex)
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 207.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+ [4] (enlaces-interes.tex (paleta.tex)
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 23.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+ [5]
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 76.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+ [6])
 File: images/MW.jpg Graphic file (type jpg)
 <use images/MW.jpg>
-Package pdftex.def Info: images/MW.jpg  used on input line 269.
+Package pdftex.def Info: images/MW.jpg  used on input line 241.
 (pdftex.def)             Requested size: 443.57848pt x 147.4993pt.
-<images/History-Universe-graphic.png, id=180, 931.48pt x 578.963pt>
+<images/History-Universe-graphic.png, id=240, 931.48pt x 578.963pt>
 File: images/History-Universe-graphic.png Graphic file (type png)
 <use images/History-Universe-graphic.png>
 Package pdftex.def Info: images/History-Universe-graphic.png  used on input lin
-e 275.
+e 247.
 (pdftex.def)             Requested size: 443.57848pt x 275.70819pt.
-<images/sdss_gaulme1.jpg, id=182, 6022.5pt x 4015.0pt>
-File: images/sdss_gaulme1.jpg Graphic file (type jpg)
-<use images/sdss_gaulme1.jpg>
-Package pdftex.def Info: images/sdss_gaulme1.jpg  used on input line 279.
-(pdftex.def)             Requested size: 310.50357pt x 206.94942pt.
-<images/timeline-768x551.jpg, id=183, 555.0336pt x 398.2077pt>
-File: images/timeline-768x551.jpg Graphic file (type jpg)
-<use images/timeline-768x551.jpg>
-Package pdftex.def Info: images/timeline-768x551.jpg  used on input line 282.
-(pdftex.def)             Requested size: 310.50357pt x 222.76997pt.
+File: images/101080_7yrFullSky_WMAP_1024W.png Graphic file (type png)
+<use images/101080_7yrFullSky_WMAP_1024W.png>
+Package pdftex.def Info: images/101080_7yrFullSky_WMAP_1024W.png  used on input
+ line 253.
+(pdftex.def)             Requested size: 443.57848pt x 221.78899pt.
  (main.bbl
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 28.
+Package pdftex.def Info: images/TEC-w.png  used on input line 51.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 
-      <./images/sdss_gaulme1.jpg>]
+l.51 ...a, Lina}, and {Valenti, Stefano}]{hubble0}
+                                                  ]
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 28.
+Package pdftex.def Info: images/TEC-w.png  used on input line 51.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
+l.51 ...a, Lina}, and {Valenti, Stefano}]{hubble0}
+                                                   <./images/History-Universe-g
+raphic.png>]
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 107.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 
-      <./images/History-Universe-graphic.png> <./images/timeline-768x551.jpg>])
-
-Package natbib Warning: There were undefined citations.
-
-
+l.107 
+      ]) 
 AED: lastpage setting LastPage
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 294.
+Package pdftex.def Info: images/TEC-w.png  used on input line 271.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
-[6] (main.aux)
+[10] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2FD42904B7DAC79A84F0224A3B3FB048;844.
+(rerunfilecheck)             Checksum: 91949F38DC55C4415AFE5CB7AC707423;844.
  ) 
 Here is how much of TeX's memory you used:
- 31908 strings out of 478927
- 624245 string characters out of 2852535
- 1186199 words of memory out of 3000000
- 49099 multiletter control sequences out of 15000+600000
- 412087 words of font info for 58 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 99i,14n,102p,724b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmcsc10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/glacy/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/glacy/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/glacy/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/glacy/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Us
-ers/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+ 30851 strings out of 478927
+ 603534 string characters out of 2852535
+ 1120508 words of memory out of 3000000
+ 48034 multiletter control sequences out of 15000+600000
+ 414176 words of font info for 65 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 107i,14n,111p,724b,1018s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\glacy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/glacy/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/glacy/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/glacy/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/g
+lacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.p
 fb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmti10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (8 pages, 9854452 bytes).
+/cmss10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmss9.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmssbx10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/glacy/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/glacy/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/glacy/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gla
+cy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (13 pages, 9634144 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

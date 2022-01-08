@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,12 +9,46 @@
 S.~Bag and L.~J. Liivamägi.
 \newblock The shape distribution of superclusters in sdss dr 12, 2021.
 
+\bibitem[Duary and Banerjee(2022)]{DUARY2022101726}
+T.~Duary and N.~Banerjee.
+\newblock Cosmological models reconstructed from jerk: A thermodynamic
+  analysis.
+\newblock \emph{New Astronomy}, 92:\penalty0 101726, 2022.
+\newblock ISSN 1384-1076.
+\newblock \doi{https://doi.org/10.1016/j.newast.2021.101726}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1384107621001408}.
+
+\bibitem[{Einstein}(1917)]{1917AE}
+A.~{Einstein}.
+\newblock {Kosmologische Betrachtungen zur allgemeinen
+  Relativit{\"a}tstheorie}.
+\newblock \emph{Sitzungsberichte der K{\"o}niglich Preu{\ss}ischen Akademie der
+  Wissenschaften (Berlin}, pages 142--152, Jan. 1917.
+
+\bibitem[Hubble(1929)]{Hubble168}
+E.~Hubble.
+\newblock A relation between distance and radial velocity among extra-galactic
+  nebulae.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 15\penalty0
+  (3):\penalty0 168--173, 1929.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.15.3.168}.
+\newblock URL \url{https://www.pnas.org/content/15/3/168}.
+
+\bibitem[{Hubble} and {Humason}(1931)]{hubblehumason1931}
+E.~{Hubble} and M.~L. {Humason}.
+\newblock {The Velocity-Distance Relation among Extra-Galactic Nebulae}.
+\newblock \emph{Astrophysical Journal}, 74:\penalty0 43, July 1931.
+\newblock \doi{10.1086/143323}.
+\newblock URL \url{https://ui.adsabs.harvard.edu/abs/1931ApJ....74...43H}.
+
 \bibitem[{Khetan, Nandita} et~al.(2021){Khetan, Nandita}, {Izzo, Luca},
   {Branchesi, Marica}, {Wojtak, Radoslaw}, {Cantiello, Michele}, {Murugeshan,
   Chandrashekar}, {Agnello, Adriano}, {Cappellaro, Enrico}, {Della Valle,
   Massimo}, {Gall, Christa}, {Hjorth, Jens}, {Benetti, Stefano}, {Brocato,
   Enzo}, {Burke, Jamison}, {Hiramatsu, Daichi}, {Howell, D. Andrew},
-  {Tomasella, Lina}, and {Valenti, Stefano}]{refId0}
+  {Tomasella, Lina}, and {Valenti, Stefano}]{hubble0}
 {Khetan, Nandita}, {Izzo, Luca}, {Branchesi, Marica}, {Wojtak, Radoslaw},
   {Cantiello, Michele}, {Murugeshan, Chandrashekar}, {Agnello, Adriano},
   {Cappellaro, Enrico}, {Della Valle, Massimo}, {Gall, Christa}, {Hjorth,
@@ -29,6 +63,47 @@ S.~Bag and L.~J. Liivamägi.
 \bibitem[Peebles(2021)]{peebles2021extended}
 P.~J.~E. Peebles.
 \newblock The extended local supercluster, 2021.
+
+\bibitem[{Penzias} and {Wilson}(1965)]{penzias}
+A.~A. {Penzias} and R.~W. {Wilson}.
+\newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
+\newblock \emph{Astrophysical Journal}, 142:\penalty0 419--421, July 1965.
+\newblock \doi{10.1086/148307}.
+\newblock URL \url{https://ui.adsabs.harvard.edu/abs/1965ApJ...142..419P}.
+
+\bibitem[{Perlmutter} et~al.(1999){Perlmutter}, {Aldering}, {Goldhaber},
+  {Knop}, {Nugent}, {Castro}, {Deustua}, {Fabbro}, {Goobar}, {Groom}, {Hook},
+  {Kim}, {Kim}, {Lee}, {Nunes}, {Pain}, {Pennypacker}, {Quimby}, {Lidman},
+  {Ellis}, {Irwin}, {McMahon}, {Ruiz-Lapuente}, {Walton}, {Schaefer}, {Boyle},
+  {Filippenko}, {Matheson}, {Fruchter}, {Panagia}, {Newberg}, {Couch}, and
+  {Project}]{1999ApJ...517..565P}
+S.~{Perlmutter}, G.~{Aldering}, G.~{Goldhaber}, R.~A. {Knop}, P.~{Nugent},
+  P.~G. {Castro}, S.~{Deustua}, S.~{Fabbro}, A.~{Goobar}, D.~E. {Groom}, I.~M.
+  {Hook}, A.~G. {Kim}, M.~Y. {Kim}, J.~C. {Lee}, N.~J. {Nunes}, R.~{Pain},
+  C.~R. {Pennypacker}, R.~{Quimby}, C.~{Lidman}, R.~S. {Ellis}, M.~{Irwin},
+  R.~G. {McMahon}, P.~{Ruiz-Lapuente}, N.~{Walton}, B.~{Schaefer}, B.~J.
+  {Boyle}, A.~V. {Filippenko}, T.~{Matheson}, A.~S. {Fruchter}, N.~{Panagia},
+  H.~J.~M. {Newberg}, W.~J. {Couch}, and T.~S.~C. {Project}.
+\newblock {Measurements of {\ensuremath{\Omega}} and {\ensuremath{\Lambda}}
+  from 42 High-Redshift Supernovae}.
+\newblock \emph{Astrophysical Journal}, 517\penalty0 (2):\penalty0 565--586,
+  June 1999.
+\newblock \doi{10.1086/307221}.
+
+\bibitem[Riess et~al.(1998)Riess, Filippenko, Challis, Clocchiatti, Diercks,
+  Garnavich, Gilliland, Hogan, Jha, Kirshner, Leibundgut, Phillips, Reiss,
+  Schmidt, Schommer, Smith, Spyromilio, Stubbs, Suntzeff, and
+  Tonry]{Riess_1998}
+A.~G. Riess, A.~V. Filippenko, P.~Challis, A.~Clocchiatti, A.~Diercks, P.~M.
+  Garnavich, R.~L. Gilliland, C.~J. Hogan, S.~Jha, R.~P. Kirshner,
+  B.~Leibundgut, M.~M. Phillips, D.~Reiss, B.~P. Schmidt, R.~A. Schommer, R.~C.
+  Smith, J.~Spyromilio, C.~Stubbs, N.~B. Suntzeff, and J.~Tonry.
+\newblock Observational evidence from supernovae for an accelerating universe
+  and a cosmological constant.
+\newblock \emph{The Astronomical Journal}, 116\penalty0 (3):\penalty0
+  1009--1038, sep 1998.
+\newblock \doi{10.1086/300499}.
+\newblock URL \url{https://doi.org/10.1086/300499}.
 
 \bibitem[Taghizadeh-Popp et~al.(2020)Taghizadeh-Popp, Kim, Lemson, Medvedev,
   Raddick, Szalay, Thakar, Booker, Chhetri, Dobos, and et~al.]{sciserver}

@@ -5,46 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abbrvnat.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-Warning--I didn't find a database entry for "hubble0"
-You've used 5 entries,
+You've used 12 entries,
             2773 wiz_defined-function locations,
-            630 strings with 6088 characters,
-and the built_in function-call counts, 3713 in all, are:
-= -- 285
-> -- 400
-< -- 2
-+ -- 134
-- -- 129
-* -- 364
-:= -- 623
-add.period$ -- 20
-call.type$ -- 5
-change.case$ -- 58
-chr.to.int$ -- 5
-cite$ -- 10
-duplicate$ -- 93
-empty$ -- 178
-format.name$ -- 136
-if$ -- 727
+            694 strings with 8644 characters,
+and the built_in function-call counts, 9399 in all, are:
+= -- 756
+> -- 966
+< -- 8
++ -- 324
+- -- 312
+* -- 924
+:= -- 1558
+add.period$ -- 54
+call.type$ -- 12
+change.case$ -- 140
+chr.to.int$ -- 12
+cite$ -- 24
+duplicate$ -- 244
+empty$ -- 458
+format.name$ -- 332
+if$ -- 1863
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 3
-newline$ -- 38
-num.names$ -- 20
-pop$ -- 112
+missing$ -- 10
+newline$ -- 86
+num.names$ -- 48
+pop$ -- 253
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 128
 quote$ -- 0
-skip$ -- 107
+skip$ -- 265
 stack$ -- 0
-substring$ -- 49
-swap$ -- 6
-text.length$ -- 0
+substring$ -- 213
+swap$ -- 27
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 55
+type$ -- 132
 warning$ -- 0
-while$ -- 18
+while$ -- 49
 width$ -- 0
-write$ -- 80
-(There was 1 warning)
+write$ -- 197

@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Cosmolog\'ia y Galaxias}{1}{section.1}%
-\contentsline {section}{\numberline {2}Teoría del Big Bang}{1}{section.2}%
-\contentsline {section}{\numberline {3}Ley de Hubble}{1}{section.3}%
-\contentsline {section}{\numberline {4}Formación galáctica}{2}{section.4}%
-\contentsline {section}{\numberline {5}Tipos de galaxias}{2}{section.5}%
-\contentsline {section}{\numberline {6}Enlaces de inter\'es}{2}{section.6}%
+\contentsline {section}{\numberline {2}Ley de Hubble}{1}{section.2}%
+\contentsline {section}{\numberline {3}Teoría del Big Bang}{1}{section.3}%
+\contentsline {section}{\numberline {4}Formación galáctica}{4}{section.4}%
+\contentsline {section}{\numberline {5}Tipos de galaxias}{5}{section.5}%
+\contentsline {section}{\numberline {6}Enlaces de inter\'es}{5}{section.6}%
 \contentsfinish 

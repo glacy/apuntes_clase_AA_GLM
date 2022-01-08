@@ -1,35 +1,42 @@
 \input{encabezado}
 
-
-
-
 \begin{document}
+%\RaggedRight
 \pagenumbering{roman}
-	\urlstyle{rm} % Format style of \ur
+%\urlstyle{rm} % Format style of \ur
 %\thispagestyle{empty}
 \input{portada}
 \pagebreak
-%\frontmatter
+
 
 %\addcontentsline{toc}{chapter}{Índice general}
 \thispagestyle{empty}
 \tableofcontents
+
+\begin{tikzpicture}[overlay,remember picture]
+\node (centro) at (current page.center) {};
+\fill[c1!10] (current page.west)rectangle(current page.south east);
+\node (centro) at (current page.center) {};
+\node[text width=\pdfpagewidth, below of=centro,yshift=-6ex] (hubble) {\includegraphics[width=\pdfpagewidth]{images/hubble_ugc11537_potw2146a.jpg}};
+\node[text width=.9\pdfpagewidth,yshift=7ex] (cred) at (current page.south) {This image came from a set of observations designed to help astronomers weigh supermassive black holes in the centers of distant galaxies. Hubble’s sharp-eyed observations along with data from ground-based telescopes allowed astronomers to make detailed models of the mass and motions of stars in these galaxies, which in turn helps constrain the mass of supermassive black holes. Text credit: European Space Agency (ESA) Image credit: ESA/Hubble \& NASA, A. Seth};
+\end{tikzpicture}
+
 \pagebreak
 
-%\mainmatter
-%\assignpagestyle{\chapter}{myheadings}
-\pagenumbering{arabic}
-
-
-
-
-\section{Cosmolog\'ia y Galaxias}
-
+\thispagestyle{empty}
 \epigraph{
 \textbf{\textcolor{c2}{\texttt{¿De qué está hecho el universo? ¿C\'omo comenzo? ¿Cómo ha evolucionado durante los 13.800 millones de años desde su origen? ¿Y cómo terminará? Estas son las preguntas que aborda la cosmología, el estudio del universo en su conjunto. La investigación en cosmología involucra astronomía, pero también física gravitacional, física de partículas y preguntas desafiantes sobre la interpretación de fenómenos que no podemos ver directamente, como la posible existencia de algo antes del Big Bang.}}}}{\textsc{\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{Center for Astrophysics // Harvard \& Smithsonian}}}
 
+\pagebreak
+
+\pagenumbering{arabic}
+\section{Cosmolog\'ia y Galaxias}
 
 
+
+1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m. 
+
+\section{Ley de Hubble}
 
 \section{Teoría del Big Bang}
 
@@ -57,65 +64,121 @@ non-interacting form of matter, called Dark Matter (DM)4, and only a 5% to be or
 Epoch of recombination.
 
 
-Standard Cosmological Model: CDM
+
 \end{comment}
-\section{Ley de Hubble}
 
 
+La imagen que tenemos del Universo en el que vivimos ha estado fuertemente influida por dos \underline{observaciones} independientes:
+\begin{itemize}
+ \item La detección - inicialmente realizada por Arno Penzias y
+Robert Woodrow Wilson en los años 60 \citep{penzias} - que el cielo est\'a lleno homogéneamente
+de fotones de microondas, llamada \Textit{radiaci\'on de fondo -cósmico- de microondas} (CBM, por sus siglas en ingl\'es). Esta radiación corresponde a aquellos fotones que se dispersaron en una edad temprana
+del Universo cuando las interacciones entre la luz y el plasma caliente que llenaba el espacio
+se volvió insignificante\footnote{este periodo se conoce como \Textit{\'Epoca de recombinaci\'on}}.
+
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{images/101080_7yrFullSky_WMAP_1024W.png}
+\caption{The detailed, all-sky picture of the infant universe created from seven years of WMAP data. The image reveals 13.7 billion year old temperature fluctuations (shown as color differences) that correspond to the seeds that grew to become the galaxies. The signal from the our Galaxy was subtracted using the multi-frequency data. This image shows a temperature range of ± 200 microKelvin. Credit: NASA / WMAP Science Team}
+\end{figure}
+
+\item El otro gran descubrimiento en cosmología provino de la observación de que nuestro
+universo se está expandiendo. Esto fue detectado inicialmente por Hubble (\citep{Hubble168}; \citep{hubblehumason1931}) basado en observaciones de variables cefeidas en varias nebulosas cercanas.
+
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{images/F2.large.jpg}
+\caption{Hubble Law - Velocity-Distance Relation among Extra-Galactic Nebulae. Radial velocities, corrected for solar motion, are plotted against distances estimated from involved stars and mean luminosities of nebulae in a cluster. The black discs and full line represent the solution for solar motion using the nebulae individually; the circles and broken line represent the solution combining the nebulae into groups; the cross represents the mean velocity corresponding to the mean distance of 22 nebulae whose distances could not be estimated individually.}
+\end{figure}
+
+\end{itemize}
+
+
+La expansión del Universo se ha confirmado a partir de observaciones de supernovas de tipo Ia (SNe
+Ia)\footnote{SNe Ia son la fase explosiva de las enanas blancas que alcanzan el \Textit{límite de Chandrasekhar} despu\'es de acrecer masa de su compañero binario. Dadas las condiciones físicas de la explosión, la luminosidad producida
+por la SN Ia se puede utilizar para medir la distancia a su galaxia anfitriona, raz\'on por la cual la SNs Ia se consideran como velas cosmológicas estándar.} (\citep{Riess_1998}; \citep{1999ApJ...517..565P}), que muestran que la expansión
+en realidad, sucede a una tasa acelerada.  \\
+
+Estos hechos implican que nuestro Universo era más denso y caliente en el pasado. \\
+
+La expansión del Universo est\'a asociada con la existencia de una energ\'ia de vac\'io,
+generalmente referida como \Textit{Energía Oscura}. Según medidas de anisotrop\'ias del CMB ... \\
+
+La cosmolog\'ia moderna se basa en la Teoría de la Relatividad General (TRG), propuesta por
+Albert Einstein \citep{1917AE}, seg\'un el cual las propiedades geom\'etricas del espacio-tiempo
+dependen de la distribución de materia y energ\'ia en el Universo. Dentro de TGR, las estructuras a grande escala que observamos hoy se formaron y evolucionaron (y est\'an evolucionando) a partir de 
+inhomogeneidades en la distribución de masa del Universo primitivo que luego crecen bajo la influencia de la gravedad. \\
+
+Estas ideas forman la base del \Textit{Modelo Cosmológico Estándar} ($\Lambda$-CDM\footnote{$\Lambda$-Cold Dark Matter}) o como
+se le llama más comúnmente, \Textit{Teor\'ia del Big Bang}. \\
+
+La Teor\'ia General de la Relatividad se basa en las \Textit{ecuaciones de campo de Einstein}:
+\begin{equation}
+R_{\mu \nu}-\frac{1}{2}g_{\mu \nu} R=\frac{8 \pi G}{c^4}T_{\mu \nu}-g_{\mu \nu}\Lambda,
+\end{equation}
+donde $R_{\mu \nu}$ (el tensor de curvatura de Ricci), $R$ (el escalar de curvatura) y $g_{\mu \nu}$ (el tensor m\'etrico) son t\'erminos relacionados con la geometr\'ia del espacio tiempo y $T_{\mu \nu}$ (el tensor de energ\'ia-esfuerzo) describe la densidad y flujo de energ\'ia y momentum en el espacio-tiempo; $c$ es la velocidad de la luz y $G$ es la constante gravitacional de Newton. El t\'ermino $\Lambda$ se llama \Textit{Constante Cosmol\'ogica} y representa la posibilidad de una densidad y presi\'on del vac\'io y/o que exista una rara forma de energ\'ia/materia gravitacional repulsiva, o Energ\'ia Oscura. \\
+
+A partir de las mediciones de la radiaci\'on CBM, a largas escalas, el Universo puede considerarse espacialmente homeg\'eneo e isotr\'opico; en cuyo caso el tensor de energ\'ia-esfuerzo toma la forma de un fluido perfecto:
 
 \begin{equation}
-R_{\mu \nu}-\frac{1}{2}g_{\mu \nu} R=\frac{8 \pi G}{c^4}T_{\mu \nu}-g_{\mu \nu}\Lambda
+T_{\mu \nu}=(\rho + p)u_\mu u_\nu +pg_{\mu \nu},
 \end{equation}
+
+donde $\rho$ es la densidad de energ\'ia y $p$ es la presi\'on medida por un observador moviendose a 4-velocidad $u_\mu$. La densidda de energ\'ia suele escribirse como la contribuci\'on de cuatro fluidos posibles:
 
 \begin{equation}
-T_{\mu \nu}=(\rho + p)u_\mu u_\nu +pg_{\mu \nu}
+\rho=\sum \rho_i=\textcolor{c2}{\rho_m} + \textcolor{c5}{\rho_r} + \textcolor{c1}{\rho_\Lambda} + \textcolor{c3}{\rho_\kappa},
 \end{equation}
+donde $\textcolor{c2}{\rho_m}$,  $\textcolor{c5}{\rho_r}$, $\textcolor{c1}{\rho_\Lambda}$ y $\textcolor{c3}{\rho_\kappa}$ representan las contribuciones al -presupuesto- de densidad de energ\'ia de la materia, radiaci\'on, constante cosmol\'ogica y de la curvatura espacial, respectivamente. \\
 
+El t\'ermino relacionado con la radiaci\'on usualmente se considera conformado por fotones CBM ($\rho_\gamma$) y neutrinos ($\rho_\nu$); mientras que la densidad de materia tiene aporte de materia bari\'onica ($\rho_{\Mbox{b}}$) y materia oscura fr\'ia ($\rho_{\Mbox{CDM}}$). \\
 
-\begin{equation}
-\rho=\sum \rho_i=\textcolor{c2}{\rho_m} + \textcolor{c5}{\rho_r} + \rho_\Lambda + \rho_\kappa
-\end{equation}
+Una vez que se especifica el contenido de masa-energ\'ia del Universo, un modelo para la geometr\'ia del espacio-tiempo tiene que adoptarse para resolver las ecuaciones de campo de Einstein. Las m\'etrica de  Friemann-Roberson-Walker (FRW)
 
 \begin{equation}
 ds^2=-dt^2+a^2(t)\left[\frac{dr^2}{1-\kappa r^2}+r^2d\vartheta^2+r^2\sin^2\vartheta d\vartheta^2\right]
 \end{equation}
+es una soluci\'on exacta a las ecuaciones de campo de Einstein que describe todos los modelos isótropos, homogéneos,
+uniformemente expandidos (o contra\'idos) del Universo. En la métrica FRW, $\kappa$
+representa la curvatura espacial del universo y $a(t)$,  el \Textit{factor de escala}, representa la
+expansi\'on relativa del universo. \\
 
+Para un universo FRW, las ecuaciones de campo de Einstein pueden reducirse a dos ecuaciones independientes (\Textit{Ecuaciones de Friedmann}):
 
 
 \begin{equation}
-\frac{\dot{a}^2}{a^2}+\frac{\kappa c^2}{a^2}=\frac{8 \pi G}{3}\rho+\frac{\Lambda c^2}{3}
+\frac{\dot{a}^2}{a^2}+\frac{\kappa c^2}{a^2}=\frac{8 \pi G}{3}\rho+\frac{\Lambda c^2}{3},
 \end{equation}
 
 
 \begin{equation}
-\frac{\ddot{a}}{a}=-\frac{4 \pi G}{3} \left(\rho+\frac{3p}{c^2} \right)+\frac{\Lambda c^2}{3}
+\frac{\ddot{a}}{a}=-\frac{4 \pi G}{3} \left(\rho+\frac{3p}{c^2} \right)+\frac{\Lambda c^2}{3},
 \end{equation}
+donde $\dot{a}$ y $\ddot{a}$ representan la primera y segunda derivada temporal del factor de escala; respectivamente. \\
 
-$p=p(\rho)$
+Para encontrar la evoluci\'on del factor de escala, se debe adoptar un modelo para la materia. En el caso de un universo FRW, es suficiente con establecer una \Textit{ecuaci\'on de estado}, es decir, $p=p(\rho)$; la cual puede parametrizarse como
 
 \begin{equation}
-p_i=\omega_i \rho_i c^2
+p_i=\omega_i \rho_i c^2,
 \end{equation}
+donde el sub\'indice $i$ indica cada una de las posibles contribuciones al presupuesto de densidad de energ\'ia del universo. Para las componentes conocidas del Universo, $\omega_\gamma=\frac{1}{3}$, $\omega_{\Mbox{m}}=0$, $\omega_\kappa=-\frac{1}{3}$, $\omega_\Lambda=-1$ y $\omega_\nu$ est\'a en el rango $[0,\frac{1}{3}]$. \\
+
+Si cada fluido se encuentra \Textit{desacoplado}, las ecuaciones de Friedmann se pueden combinar para expresar la evoluci\'on de la densidad de energ\'ia como
+\begin{equation}
+\dot{\rho_i}+3H(1+\omega_i)\rho_i,
+\end{equation}
+donde $H$, el \Textit{par\'ametro de Hubble}, definido como
 
 \begin{equation}
-\dot{\rho_i}+3H(1+\omega_i)\rho_i
+H\equiv H(t)\equiv \frac{da}{dt}\frac{1}{a},
 \end{equation}
-
-
-\begin{equation}
-H\equiv H(t)\equiv \frac{da}{dt}\frac{1}{a}
-\end{equation}
-
-$H_0=H(t_0)=1$
-
-$H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1}$
-
+representa la tasa de expansi\'on del universo. El valor actual de $H$, denominado \Textit{constante de Hubble} suele normalizarse a la unidad, de manera que $H_0=H(t_0)=1$. Se acostumbra expresar la constante de Hubble en t\'ermino del \Textit{par\'ametro de Hubble adimensional} $h$, de manera que $H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1},$
+ y toda la incertidumbre en el valor de $H_0$ se asigna a $h$. \\
+ 
 \citet{hubble0}
 \begin{equation}
 \rho_c\equiv \frac{3H^2}{8\pi G}
 \end{equation}
 
-
+\input{paleta}
 \begin{equation}
 \Omega_i(t)\equiv \frac{\rho_i(t)}{\rho_c(t)}
 \end{equation}
@@ -167,103 +230,12 @@ $k\equiv |\mathbf{k}|=2 \pi a/\lambda $
 
 \citet{bag2021shape}
 
-\citet{refId0}
+As no single dark energy candidate or no particular modification of the theory of gravity is universally accepted as the right model to account for the alleged accelerated expansion of the universe, there is a recent trend of reconstructing the models for the observed universe through kinematical quantities \citep{DUARY2022101726}
 
-\section{Enlaces de inter\'es}
-\begin{tikzpicture}[inner sep=4.5mm]
-\node[fill, rectangle, c5] at (0,0) {};
-\node[fill, rectangle, c3] at (1,0) {};
-\node[fill, rectangle, c2] at (2,0) {};
-\node[fill, rectangle, c4] at (3,0) {};
-\node[fill, rectangle, c6] at (4,0) {};
-\end{tikzpicture}
-
-\begin{wwteorema}{European Southern Observatory}
-\href{https://www.eso.org/}{https://www.eso.org/}
-\end{wwteorema}
-
-\begin{wwteorema}{The Sloan Digital Sky Survey}
-\href{https://www.sdss.org/}{https://www.sdss.org/}	
-
-\end{wwteorema}
-
-\begin{wwteorema}{Center for Astrophysics - Harvard \& Smithsonian}
-\href{https://www.cfa.harvard.edu/research/science-field/cosmology}{https://www.cfa.harvard.edu/research/science-field/cosmology}
-\end{wwteorema}
-
-\begin{wwteorema}{Webb Space Telescope}
-\href{https://www.jwst.nasa.gov/}{https://www.jwst.nasa.gov/}
-\end{wwteorema}
-
-\begin{wwteorema}{Astropy}
-\href{https://www.astropy.org/}{https://www.astropy.org/}
-\end{wwteorema}
-
-\begin{wwteorema}{SciServer}
-\href{https://www.sciserver.org/}{https://www.sciserver.org/} \\
-\citep{sciserver}
-\end{wwteorema}
-
-\begin{wwteorema}{The Dark Energy Survey}
-\href{https://www.darkenergysurvey.org/}{https://www.darkenergysurvey.org/}
-\end{wwteorema}
+\input{enlaces-interes}
 
 
-\begin{wwteorema}{Marvin - the ultimate tool to visualise and analyse MaNGA data}
-\href{https://dr17.sdss.org/marvin/}{https://dr17.sdss.org/marvin/}
-\end{wwteorema}
 
-\begin{wwteorema}{Hubble Space Telescope}
-\href{https://hubblesite.org/}{https://hubblesite.org/}
-\end{wwteorema}
-
-\begin{wwteorema}{The SAO/NASA Astrophysics Data System}
-\href{https://ui.adsabs.harvard.edu/}{https://ui.adsabs.harvard.edu/}
-\end{wwteorema}
-
-\begin{wwteorema}{Centre de Données astronomiques de Strasbourg - 
-Strasbourg astronomical Data Center}
-\href{https://cds.u-strasbg.fr/}{https://cds.u-strasbg.fr/} \\
-\href{http://simbad.u-strasbg.fr/simbad/}{http://simbad.u-strasbg.fr/simbad/ \citet{simbad}}
-\end{wwteorema}
-
-\begin{wwteorema}{SAOImageDS9 - 
-An image display and visualization tool for astronomical data}
-\href{https://sites.google.com/cfa.harvard.edu/saoimageds9/}{https://sites.google.com/cfa.harvard.edu/saoimageds9/}
-\end{wwteorema}
-
-\begin{wwteorema}{The Millennium simulation}
-\href{https://wwwmpa.mpa-garching.mpg.de/millennium/}{https://wwwmpa.mpa-garching.mpg.de/millennium/}
-\end{wwteorema}
-
-\begin{wwteorema}{The Stephen Hawking Centre for Theoretical Cosmology}
-\href{https://www.ctc.cam.ac.uk/}{https://www.ctc.cam.ac.uk/}
-\end{wwteorema}
-
-\begin{wwteorema}{Astronomy and Computing}
-\href{https://www.sciencedirect.com/journal/astronomy-and-computing}{https://www.sciencedirect.com/journal/astronomy-and-computing}
-\end{wwteorema}
-
-\begin{wwteorema}{Astronomy and Astrophysics}
-\href{https://www.aanda.org/}{https://www.aanda.org/}
-\end{wwteorema}
-
-\begin{wwteorema}{Annual Review of Astronomy and Astrophysics}
-\href{https://www.annualreviews.org/journal/astro}{https://www.annualreviews.org/journal/astro}
-\end{wwteorema}
-
-\begin{wwteorema}{Monthly Notices of the Royal Astronomy Society}
-\href{https://academic.oup.com/mnras}{https://academic.oup.com/mnras}
-\end{wwteorema}
-
-
-\begin{tikzpicture}[inner sep=4.5mm]
-\node[fill, rectangle, c5] at (0,0) {};
-\node[fill, rectangle, c3] at (1,0) {};
-\node[fill, rectangle, c2] at (2,0) {};
-\node[fill, rectangle, c4] at (3,0) {};
-\node[fill, rectangle, c6] at (4,0) {};
-\end{tikzpicture}
 
 \begin{figure}[!h]
 \includegraphics[width=\textwidth]{images/MW.jpg}
@@ -273,20 +245,25 @@ An image display and visualization tool for astronomical data}
 
 \begin{figure}
 \includegraphics[width=\textwidth]{images/History-Universe-graphic.png}
-\caption{V\'ia L\'actea. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
+\caption{El crecimiento de la estructura c\'osmica. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
 \end{figure}
 
-\includegraphics[width=.7\textwidth]{images/sdss_gaulme1.jpg}
 
 \begin{figure}
-\includegraphics[width=.7\textwidth]{images/timeline-768x551.jpg}
-\caption{Timeline. Cr\'editos G. Hüdepohl (\href{https://www.atacamaphoto.com/}{atacamaphoto.com})/ESO}
+\includegraphics[width=\textwidth]{images/101080_7yrFullSky_WMAP_1024W.png}
+\caption{The detailed, all-sky picture of the infant universe created from seven years of WMAP data. The image reveals 13.7 billion year old temperature fluctuations (shown as color differences) that correspond to the seeds that grew to become the galaxies. The signal from the our Galaxy was subtracted using the multi-frequency data. This image shows a temperature range of ± 200 microKelvin. Credit: NASA / WMAP Science Team}
 \end{figure}
+%\includegraphics[width=.7\textwidth]{images/sdss_gaulme1.jpg}
+
+%\begin{figure}
+%\includegraphics[width=.7\textwidth]{images/timeline-768x551.jpg}
+%\caption{Timeline.}
+%\end{figure}
 
 
 
 
-1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m. 
+
 
 
 \bibliography{bibliografia}{}
