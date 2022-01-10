@@ -13,13 +13,7 @@
 \thispagestyle{empty}
 \tableofcontents
 
-\begin{tikzpicture}[overlay,remember picture]
-\node (centro) at (current page.center) {};
-\fill[c1!10] (current page.west)rectangle(current page.south east);
-\node (centro) at (current page.center) {};
-\node[text width=\pdfpagewidth, below of=centro,yshift=-6ex] (hubble) {\includegraphics[width=\pdfpagewidth]{images/hubble_ugc11537_potw2146a.jpg}};
-\node[text width=.9\pdfpagewidth,yshift=7ex] (cred) at (current page.south) {This image came from a set of observations designed to help astronomers weigh supermassive black holes in the centers of distant galaxies. Hubble’s sharp-eyed observations along with data from ground-based telescopes allowed astronomers to make detailed models of the mass and motions of stars in these galaxies, which in turn helps constrain the mass of supermassive black holes. Text credit: European Space Agency (ESA) Image credit: ESA/Hubble \& NASA, A. Seth};
-\end{tikzpicture}
+\input{imagen-contenidos}
 
 \pagebreak
 
@@ -31,10 +25,6 @@
 
 \pagenumbering{arabic}
 \section{Cosmolog\'ia y Galaxias}
-
-
-
-1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m. 
 
 \section{Ley de Hubble}
 
@@ -164,40 +154,70 @@ donde el sub\'indice $i$ indica cada una de las posibles contribuciones al presu
 Si cada fluido se encuentra \Textit{desacoplado}, las ecuaciones de Friedmann se pueden combinar para expresar la evoluci\'on de la densidad de energ\'ia como
 \begin{equation}
 \dot{\rho_i}+3H(1+\omega_i)\rho_i,
+\label{eq:ecF-d}
 \end{equation}
 donde $H$, el \Textit{par\'ametro de Hubble}, definido como
 
 \begin{equation}
 H\equiv H(t)\equiv \frac{da}{dt}\frac{1}{a},
 \end{equation}
-representa la tasa de expansi\'on del universo. El valor actual de $H$, denominado \Textit{constante de Hubble} suele normalizarse a la unidad, de manera que $H_0=H(t_0)=1$. Se acostumbra expresar la constante de Hubble en t\'ermino del \Textit{par\'ametro de Hubble adimensional} $h$, de manera que $H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1},$
+representa la tasa de expansi\'on del universo. El valor actual de $H$, denominado \Textit{constante de Hubble} suele normalizarse a la unidad, de manera que $H_0=H(t_0)=1$. Se acostumbra expresar la constante de Hubble en t\'ermino del \Textit{par\'ametro de Hubble adimensional} $h$, de manera que $H_0=100\, \textcolor{c5}{h} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1},$\footnote{1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m. }
  y toda la incertidumbre en el valor de $H_0$ se asigna a $h$. \\
  
+ 1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m.  \\
 \citet{hubble0}
+
+Una soluci\'on anal\'itica en el caso de que todas las componentes est\'en presentes no es posible,
+pero para muchos casos de inter\'es es posible obtener soluciones anal\'iticas a la Ecuaci\'on \eqref{eq:ecF-d}.
+Un resumen de tales soluciones se brinda en la Tabla 1. \\
+
+\input{paleta}
+
+La \Textit{densidad cr\'itica}, definida como
 \begin{equation}
 \rho_c\equiv \frac{3H^2}{8\pi G}
 \end{equation}
 
-\input{paleta}
+es la densidad de energ\'ia que tendd\'ia un universo espacialemente plano ($\kappa=0$), sin constante cosmol\'ogica ($\Lambda=0$), con una tasa de expansi\'on $H(t)$. \\
+
+El \Textit{par\'ametro de densidad} se define como
+
 \begin{equation}
 \Omega_i(t)\equiv \frac{\rho_i(t)}{\rho_c(t)}
 \end{equation}
-
+de donde 
 
 \begin{equation}
 \Omega=\Omega_m + \Omega_r + \Omega_\Lambda + \Omega_\kappa
 \end{equation}
+
+Un modelo cosmol\'ogico FRW se define especificando los valores de los tres par\'ametros cosmol\'ogicos $H_0$, $\Omega_{\Mbox{m}}$ y $\Omega_\Lambda$.
+
+\input{paleta}
+
+Los modelos FRW, al ser soluciones a universos homog\'eneos e isotr\'opicos, no permiten explicar la cantidad de estructuras en el universo. Para reproducir las \Textit{grandes estructuras} es necesario introducir inhomogeneidades iniciales en la densidad de energ\'ia que luego crecen bajo el efecto de la gravedad y gradientes de presi\'on en un universo en expansi\'on. Estas ``semillas'' se considera que fueron generadas a partir de fluctuaciones cu\'anticas, seguidas de una \'epoca de expansi\'on exponencial del universo temprano, denomida \Textit{inflaci\'on}. Las mediciones del CBM brindan restricciones observacionales a la forma de dichas pertubaciones iniciales de la densidad.\\
+
+\begin{figure}
+\includegraphics[width=\textwidth]{images/History-Universe-graphic.png}
+\caption{El crecimiento de la estructura c\'osmica. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
+\end{figure}
 \section{Formación galáctica}
 
+La principal idea detr\'as de la teor\'ia de fomaci\'on de estructuras es que en un fluido homog\'eneo e isotr\'opico, pequeñas fluctuaciones en la densidad y velocidad pueden evolucionar en el tiempo si la escala temporal para que los efectos de la presi\'on se establezcan es mucho menor que la escala temporal necesaria para que dichas fluctuaciones en la densidad colapsen bajo el efecto de la gravedad. Bajo este esquema, se considera que las estructuras que observamos hoy d\'ia, se han formado jer\'arquicamente: pequeños halos (de materia oscura) se forman por colapso para formar halos m\'as grande que luego son el lugar de nacimiento de las galaxias.
+
+\citep{ratra}
+La \Textit{Teor\'ia de pertubaciones lineales} introduce pequeñas desviaciones a la homogeniedad e isotrtop\'ia de una \Textit{m\'etrica FRW de fondo} para resolver las ecuaciones de Einstein. Las perturbaciones se caracterizan por un \Textit{funci\'on de contraste}, $\delta (\mathbf{x},t)$, de manera que las cantidades din\'amicas se pueden expresar como
+
 \begin{equation}
-\rho(\mathbf{x},t)=\bar{\rho}(t)[1 +\delta (\mathbf{x},t)]
+\rho(\mathbf{x},t)=\bar{\rho}(t)[1 +\delta (\mathbf{x},t)],
 \end{equation}
 
 \begin{equation}
-p(\mathbf{x},t)=\bar{p}(t)[1 +\delta (\mathbf{x},t)]
+p(\mathbf{x},t)=\bar{p}(t)[1 +\delta (\mathbf{x},t)],
 \end{equation}
 
-
+donde $\bar{\rho}$ y $\bar{p}$ representan la densidad y presi\'on del campo de fondo; respectivamente. \\ 
+\input{paleta}
 \begin{equation}
 \frac{\partial^2\delta}{\partial t^2}+2H\frac{\partial\delta}{\partial t}=4\pi G \bar{\rho}\delta -\frac{c^2_{\mbox{s}}}{a^2}\nabla^2\delta
 \end{equation}
@@ -243,16 +263,10 @@ As no single dark energy candidate or no particular modification of the theory o
 \end{figure}
 
 
-\begin{figure}
-\includegraphics[width=\textwidth]{images/History-Universe-graphic.png}
-\caption{El crecimiento de la estructura c\'osmica. Cr\'editos: Samuel Velasco (\href{https://www.quantamagazine.org/why-nasas-james-webb-space-telescope-matters-so-much-20211203/}{Quanta Magazine})}
-\end{figure}
 
 
-\begin{figure}
-\includegraphics[width=\textwidth]{images/101080_7yrFullSky_WMAP_1024W.png}
-\caption{The detailed, all-sky picture of the infant universe created from seven years of WMAP data. The image reveals 13.7 billion year old temperature fluctuations (shown as color differences) that correspond to the seeds that grew to become the galaxies. The signal from the our Galaxy was subtracted using the multi-frequency data. This image shows a temperature range of ± 200 microKelvin. Credit: NASA / WMAP Science Team}
-\end{figure}
+
+
 %\includegraphics[width=.7\textwidth]{images/sdss_gaulme1.jpg}
 
 %\begin{figure}
