@@ -11,13 +11,15 @@
 %\fill[azul1] (current page.north west)-- (-5,-3)--(18,0)--(current page.north east);
 
 \fill[c1!10] (current page.north west)rectangle(current page.east);
-\node[yshift=25ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
+\node[yshift=30ex, text width=\pdfpagewidth, align=center, above] (titulo) at (current page.center) {\fontsize{25}{30}\selectfont \textsc{Apuntes de Clase}};
 
-\node[yshift=-5ex] (asignatura) [below of=titulo] {\fontsize{25}{30}\selectfont
+\node[yshift=-3ex] (asignatura) [below of=titulo] {\fontsize{25}{30}\selectfont
 \textsc{
-\textcolor{azul1}{\textcolor{c1}{IF-6008} T\'opicos de Astronom\'ia y Astrof\'isica}}};
+\textcolor{c3}{\textcolor{c1}{IF-6008} T\'opicos de Astronom\'ia y Astrof\'isica}}};
 
-\node[yshift=-5ex] (profesor) [below of=asignatura] {\huge \texttt{Prof. Gerardo Lacy Mora}};
+\node[yshift=-3ex] (unidad) [below of=asignatura] {\huge \texttt{Unidad VI - Cosmolog\'ia y Galaxias}};
+
+\node[yshift=-3ex] (profesor) [below of=unidad] {\huge \texttt{Prof. Gerardo Lacy Mora} (\texttt{\href{mailto:glacy@itcr.ac.cr}{glacy@itcr.ac.cr}})};
 
 \node[above, yshift=20ex] (semestre) at (current page.south) {\texttt{I Semestre 2022}};
 
@@ -27,7 +29,7 @@
 
 %\node[yshift=-10ex, xshift=-30ex] at (current page.north east) {\includegraphics[width=7cm]{images/TEC.png}};
 
-\node[yshift=25ex, text width=\pdfpagewidth, align=center, above of=titulo] {\includegraphics[width=\pdfpagewidth]{images/MW.jpg}};
+\node[yshift=20ex, text width=\pdfpagewidth, align=center, above of=titulo] {\includegraphics[width=\pdfpagewidth]{images/MW.jpg}};
 
 \node[above of=semestre,yshift=10ex] {\includegraphics[width=5cm]{images/TEC-w.png}};
 \end{tikzpicture}

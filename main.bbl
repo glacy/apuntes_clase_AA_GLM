@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -112,6 +112,30 @@ A.~G. Riess, A.~V. Filippenko, P.~Challis, A.~Clocchiatti, A.~Diercks, P.~M.
   1009--1038, sep 1998.
 \newblock \doi{10.1086/300499}.
 \newblock URL \url{https://doi.org/10.1086/300499}.
+
+\bibitem[{Scolnic} et~al.(2018){Scolnic}, {Jones}, {Rest}, {Pan}, {Chornock},
+  {Foley}, {Huber}, {Kessler}, {Narayan}, {Riess}, {Rodney}, {Berger}, {Brout},
+  {Challis}, {Drout}, {Finkbeiner}, {Lunnan}, {Kirshner}, {Sanders},
+  {Schlafly}, {Smartt}, {Stubbs}, {Tonry}, {Wood-Vasey}, {Foley}, {Hand},
+  {Johnson}, {Burgett}, {Chambers}, {Draper}, {Hodapp}, {Kaiser}, {Kudritzki},
+  {Magnier}, {Metcalfe}, {Bresolin}, {Gall}, {Kotak}, {McCrum}, and
+  {Smith}]{scolnic2018}
+D.~M. {Scolnic}, D.~O. {Jones}, A.~{Rest}, Y.~C. {Pan}, R.~{Chornock}, R.~J.
+  {Foley}, M.~E. {Huber}, R.~{Kessler}, G.~{Narayan}, A.~G. {Riess},
+  S.~{Rodney}, E.~{Berger}, D.~J. {Brout}, P.~J. {Challis}, M.~{Drout},
+  D.~{Finkbeiner}, R.~{Lunnan}, R.~P. {Kirshner}, N.~E. {Sanders},
+  E.~{Schlafly}, S.~{Smartt}, C.~W. {Stubbs}, J.~{Tonry}, W.~M. {Wood-Vasey},
+  M.~{Foley}, J.~{Hand}, E.~{Johnson}, W.~S. {Burgett}, K.~C. {Chambers}, P.~W.
+  {Draper}, K.~W. {Hodapp}, N.~{Kaiser}, R.~P. {Kudritzki}, E.~A. {Magnier},
+  N.~{Metcalfe}, F.~{Bresolin}, E.~{Gall}, R.~{Kotak}, M.~{McCrum}, and K.~W.
+  {Smith}.
+\newblock {The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}.
+\newblock \emph{Astrophysical Journal}, 859\penalty0 (2):\penalty0 101, June
+  2018.
+\newblock \doi{10.3847/1538-4357/aab9bb}.
+\newblock URL \url{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}.
 
 \bibitem[Taghizadeh-Popp et~al.(2020)Taghizadeh-Popp, Kim, Lemson, Medvedev,
   Raddick, Szalay, Thakar, Booker, Chhetri, Dobos, and et~al.]{sciserver}

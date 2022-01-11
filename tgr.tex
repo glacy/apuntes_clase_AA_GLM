@@ -1,6 +1,9 @@
-\input{paleta}
+
 
 \subsection{Teor\'ia General de la Relatividad}
+
+\input{linea-header}
+
 La cosmolog\'ia moderna se basa en la Teoría de la Relatividad General (TRG), propuesta por
 Albert Einstein \citep{1917AE}, seg\'un el cual las propiedades geom\'etricas del espacio-tiempo
 dependen de la distribución de materia y energ\'ia en el Universo. Dentro de TGR, las estructuras a grande escala que observamos hoy se formaron y evolucionaron (y est\'an evolucionando) a partir de 
@@ -73,12 +76,31 @@ representa la tasa de expansi\'on del universo. El valor actual de $H$, denomina
  y toda la incertidumbre en el valor de $H_0$ se asigna a $h$. \\
  
 % 1 Mpc=$10^6$ pc = 3.086 $\times 10^{22}$ m.  \\
+
+$$H_0=70.50\pm2.37\, \mbox{(stat.)}\pm3.38\, \mbox{(sys.)} \,\mbox{km s}^{-1}\, \mbox{Mpc}^{-1}$$
 \citet{hubble0}
+\citep{scolnic2018}
+
 
 Una soluci\'on anal\'itica en el caso de que todas las componentes est\'en presentes no es posible,
 pero para muchos casos de inter\'es es posible obtener soluciones anal\'iticas a la Ecuaci\'on \eqref{eq:ecF-d}.
-Un resumen de tales soluciones se brinda en la Tabla 1. \\
+Un resumen de tales soluciones se brinda en la Tabla \ref{tab:eqf}. \\
 
+\begin{table}[!h]
+\caption{Soluciones particulares a las ecuaciones de Friedmann.}
+\[
+\begin{array}{cccc}
+\hline
+\textbf{Componente dominante}&\omega&\rho&a(t)\\
+\toprule
+\mbox{Materia} & 0 & a^{-3}& (\frac{2}{3}H_0t)^{2/3}\\
+\mbox{Radiaci\'on} & \frac{1}{3} & a^{-4}& (2H_0t)^{1/2}\\
+\Lambda & -1 &\frac{\Lambda}{8 \pi G}& \mbox{exp}\left(\sqrt{\frac{\Lambda c^2}{3}}t\right)\\
+\hline
+\end{array}
+\]
+\label{tab:eqf}
+\end{table}
 
 La \Textit{densidad cr\'itica}, definida como
 \begin{equation}

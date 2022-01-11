@@ -26,7 +26,7 @@
 \pagenumbering{arabic}
 
 \section{Cosmolog\'ia y Galaxias}
-
+%\input{linea-header}
 %\section{Ley de Hubble}
 
 %\section{Teoría del Big Bang}
@@ -90,36 +90,7 @@ Epoch of recombination.
 
 
 
-\tikzset{test/.style n args={3}{
-    postaction={
-    decorate,
-    decoration={
-    markings,
-    mark=between positions 0 and \pgfdecoratedpathlength step 0.5pt with {
-    \pgfmathsetmacro\myval{multiply(
-        divide(
-        \pgfkeysvalueof{/pgf/decoration/mark info/distance from start}, \pgfdecoratedpathlength
-        ),
-        100
-    )};
-    \pgfsetfillcolor{#3!\myval!#2};
-    \pgfpathcircle{\pgfpointorigin}{#1};
-    \pgfusepath{fill};}
-}}}}
-
-\begin{tikzpicture}[]
-    % node definitions
-    \node (s1) at (0, 0) {};
-    \node (s2) at (1, 0) {};
-    \node (s3) at (2, 0) {};
-    \node (s4) at (3, 0) {};
-    \node (s5) at (4, 0) {};
-    % sketch
-    \draw [test={1pt}{c1}{c2}, thick] (s1.center) to (s2.center);
-    \draw [test={1pt}{c2}{c3}, thick] (s2.center) to (s3.center);
-    \draw [test={1pt}{c3}{c4}, thick] (s3.center) to (s4.center);
-    \draw [test={1pt}{c4}{c5}, thick] (s4.center) to (s5.center);
-\end{tikzpicture}
-\bibliography{bibliografia}{}
+%\bibliographystyle{apalike}
+\bibliography{bibliografia}{aa}
 
 \end{document}
