@@ -1,0 +1,52 @@
+\input{paleta}
+\subsection{Formación galáctica}
+
+La principal idea detr\'as de la teor\'ia de fomaci\'on de estructuras es que en un fluido homog\'eneo e isotr\'opico, pequeñas fluctuaciones en la densidad y velocidad pueden evolucionar en el tiempo si la escala temporal para que los efectos de la presi\'on se establezcan es mucho menor que la escala temporal necesaria para que dichas fluctuaciones en la densidad colapsen bajo el efecto de la gravedad. Bajo este esquema, se considera que las estructuras que observamos hoy d\'ia, se han formado jer\'arquicamente: pequeños halos (de materia oscura) se forman por colapso para formar halos m\'as grande que luego son el lugar de nacimiento de las galaxias. \\ 
+
+\citep{ratra}
+
+La \Textit{Teor\'ia de pertubaciones lineales} introduce pequeñas desviaciones a la homogeniedad e isotrop\'ia de una \Textit{m\'etrica FRW de fondo} para resolver las ecuaciones de Einstein. Las perturbaciones se caracterizan por un \Textit{funci\'on de contraste}, $\delta (\mathbf{x},t)$, de manera que las cantidades din\'amicas se pueden expresar como
+
+\begin{equation}
+\rho(\mathbf{x},t)=\bar{\rho}(t)[1 +\delta (\mathbf{x},t)],
+\end{equation}
+
+\begin{equation}
+p(\mathbf{x},t)=\bar{p}(t)[1 +\delta (\mathbf{x},t)],
+\end{equation}
+
+donde $\bar{\rho}$ y $\bar{p}$ representan la densidad y presi\'on del campo de fondo; respectivamente. La teor\'ia de perturbaciones lineales es aplicable para $\delta \lesssim 1$. Luego, la evoluci\'on se vuelve no lineal. Si adem\'as se asumen pertubaciones adiab\'aticas, las fluctuaciones de densidad en un universo FRW dominado por materia crecen seg\'un\\ 
+
+\begin{equation}
+\frac{\partial^2\delta}{\partial t^2}+2H\frac{\partial\delta}{\partial t}=4\pi G \bar{\rho}\delta -\frac{c^2_{\mbox{s}}}{a^2}\nabla^2\delta,
+\label{eq:densfluc}
+\end{equation}
+donde 
+
+\begin{equation}
+c^2_{\mbox{s}}\equiv \frac{\partial p}{\partial \rho}
+\end{equation}
+es la velocidad del sonido. Las derivadas temporales y el operador $\nabla$ operan sobre las \Textit{coordenadas com\'oviles}. \\
+
+El segundo t\'ermino en \eqref{eq:densfluc} tiende a suprimir el crecimiento de las perturbaciones debidas a la expansi\'on del universo; por lo que suele llamarse \Textit{arrastre de Hubble}. El primer t\'ermino en el lado derecho de esta ecuaci\'on causa el crecimiento de las perturbaciones debido a inestabilidades gravitacionales, mientras que el segundo t\'ermino est\'a relacionado con la presi\'on debida  a variaciones espaciales de la densidad. \\ 
+
+Dada la naturaleza lineal de la ecuaci\'on \eqref{eq:densfluc}, una expansi\'on en serie de Fourier 
+\begin{equation}
+\delta (\mathbf{x},t)=\sum_{\mbox{k}} \delta_{\mbox{k}}(t) e^{i \mbox{\textbf{k}} \cdot  \mbox{\textbf{x}}}
+\end{equation}
+permite estudiar la evoluci\'on de modos individuales; 
+\begin{equation}
+\ddot{\delta_k}+2H\dot{\delta_k}=-\omega_k^2\delta_k,
+\label{eq:jeans}
+\end{equation}
+donde $\omega_k$ se define mediante la \Textit{relaci\'on de dispersi\'on}
+\begin{equation}
+\omega_k^2=\left(\frac{k c_s}{H} \right)^2-4\pi G \rho,
+\end{equation}
+con $k\equiv |\mathbf{k}|=2 \pi a/\lambda $ es el \Textit{n\'umero de onda comovil}. La ecuaci\'on \eqref{eq:jeans} representa un oscilador amortigado, llamada \Textit{ecuaci\'on de Jeans}, en la que el amortiguamiento proviene de la expansi\'on del universo y la pertubaci\'on de la densidad act\'ua como fuente. \\
+
+La condici\'on $\omega_k^2=0$ establece la igualdad entre la presi\'on y las fuerzas gravitacionales, define una \Textit{longitud propia}
+\begin{equation}
+\lambda_J \equiv \frac{2 \pi a}{k_J}=c_s \sqrt{\frac{\pi}{G\bar{\rho}}}
+\end{equation}
+llamada \Textit{longitud de Jeans}. Perturbaciones bari\'onicas en escalas mayores a la longitud de Jeans no se ven afectadas por las fuerzas de presi\'on y pueden crecer; mientras que en escalas menores, pequeñas perturbaciones experimentan el efecto de los gradientes de presi\'on y oscilan como ondas ac\'usticas con amplitudes que crecen o decrecen exponencialmente. Por lo tanto, en el r\'egimen sub-Jeans, no hay crecimiento de estructuras en el r\'egimen lineal.

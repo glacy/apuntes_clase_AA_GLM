@@ -19,9 +19,11 @@
 %\usepackage[toc, page]{appendix}
 \usepackage{tikz}
 %\usetikzlibrary{arrows.meta}
+%\usetikzlibrary{calc, shapes.arrows}
 %\usepackage{pgf}
 %\usepackage{pgfplots}
 %\usepgflibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
 %\usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{tabulary}
@@ -38,7 +40,7 @@
 \usepackage{array}
 %\usepackage{titlesec}
 \usepackage{pdfpages}
-
+\usepackage{amsmath,amssymb}
 %\usepackage[Sonny]{fncychap}
 %\usepackage{caption}
 %\usepackage[utopia]{quotchap}
@@ -60,12 +62,13 @@
 \usepackage{epigraph} 
 \usepackage{lastpage}
 \usepackage{ragged2e}
+
 %\usepackage{blindtext}
 %\usepackage{quotchap}
 \renewcommand{\arraystretch}{1.5}
 \setlength{\epigraphwidth}{0.8\textwidth}
 
-
+\renewcommand{\familydefault}{\sfdefault}
 \newcommand{\epigraphrulecolor}{c5}
 \makeatletter
 \renewcommand{\@epirule}{{\color{\epigraphrulecolor}\rule[.5ex]{\epigraphwidth}{\epigraphrule}}}
@@ -123,7 +126,20 @@
 %\pagestyle{myheadings}
 \lhead{}
 \chead{}
-\rhead{\scriptsize{\thepage/\pageref{LastPage}}}
+\rhead{\scriptsize{\thepage/\pageref{LastPage}} \\
+\begin{tikzpicture}[]
+    % node definitions
+    \node (s1) at (0, 0) {};
+    \node (s2) at (1, 0) {};
+    \node (s3) at (2, 0) {};
+    \node (s4) at (3, 0) {};
+    \node (s5) at (4, 0) {};
+    % sketch
+    \draw [test={1pt}{c1}{c2}, thick] (s1.center) to (s2.center);
+    \draw [test={1pt}{c2}{c3}, thick] (s2.center) to (s3.center);
+    \draw [test={1pt}{c3}{c4}, thick] (s3.center) to (s4.center);
+    \draw [test={1pt}{c4}{c5}, thick] (s4.center) to (s5.center);
+\end{tikzpicture}}
 \lfoot{\scriptsize{IF-6008 $-$ T\'opicos de Astronom\'ia y Astrof\'isica}}
 \cfoot{}
 \rfoot{\scriptsize{I Semestre 2022}}
@@ -291,9 +307,40 @@ title={#2},#1}
 
 \watermark{\put(135,-15){\includegraphics[width=2in]{images/TEC-w.png}}}
 
+
+\tikzset{test/.style n args={3}{
+    postaction={
+    decorate,
+    decoration={
+    markings,
+    mark=between positions 0 and \pgfdecoratedpathlength step 0.5pt with {
+    \pgfmathsetmacro\myval{multiply(
+        divide(
+        \pgfkeysvalueof{/pgf/decoration/mark info/distance from start}, \pgfdecoratedpathlength
+        ),
+        100
+    )};
+    \pgfsetfillcolor{#3!\myval!#2};
+    \pgfpathcircle{\pgfpointorigin}{#1};
+    \pgfusepath{fill};}
+}}}}
+
 \renewcommand{\footnoterule}{%
   \kern -3pt
-  \color{c1}{\hrule width .45\textwidth height 1pt}
+%  \color{c1}{\hrule width .45\textwidth height 1pt}
+  \begin{tikzpicture}[]
+    % node definitions
+    \node (s1) at (0, 0) {};
+    \node (s2) at (1, 0) {};
+    \node (s3) at (2, 0) {};
+    \node (s4) at (3, 0) {};
+    \node (s5) at (4, 0) {};
+    % sketch
+    \draw [test={.5pt}{c1}{c2}, thick] (s1.center) to (s2.center);
+    \draw [test={.5pt}{c2}{c3}, thick] (s2.center) to (s3.center);
+    \draw [test={.5pt}{c3}{c4}, thick] (s3.center) to (s4.center);
+    \draw [test={.5pt}{c4}{c5}, thick] (s4.center) to (s5.center);
+\end{tikzpicture}
   \kern 2pt
 }
 
