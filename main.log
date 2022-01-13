@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  11 JAN 2022 08:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  13 JAN 2022 09:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -3174,7 +3174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--62
+Underfull \hbox (badness 10000) in paragraph at lines 37--48
 
  []
 
@@ -6000,7 +6000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-<images/History-Universe-graphic.png, id=194, 931.48pt x 578.963pt>
+<images/History-Universe-graphic.png, id=197, 931.48pt x 578.963pt>
 File: images/History-Universe-graphic.png Graphic file (type png)
 <use images/History-Universe-graphic.png>
 Package pdftex.def Info: images/History-Universe-graphic.png  used on input lin
@@ -7894,7 +7894,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<images/2dFzcone.jpg, id=236, 96.36pt x 57.5751pt>
+<images/2dFzcone.jpg, id=239, 96.36pt x 57.5751pt>
 File: images/2dFzcone.jpg Graphic file (type jpg)
 <use images/2dFzcone.jpg>
 Package pdftex.def Info: images/2dFzcone.jpg  used on input line 39.
@@ -8833,48 +8833,45 @@ File: images/TEC-w.png Graphic file (type png)
 Package pdftex.def Info: images/TEC-w.png  used on input line 53.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
  [9])
-File: images/MW.jpg Graphic file (type jpg)
-<use images/MW.jpg>
-Package pdftex.def Info: images/MW.jpg  used on input line 75.
-(pdftex.def)             Requested size: 443.57848pt x 147.4993pt.
+File: images/TEC-w.png Graphic file (type png)
+<use images/TEC-w.png>
+Package pdftex.def Info: images/TEC-w.png  used on input line 59.
+(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(main.bbl
+[10] (main.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 16.
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 21.
+Package pdftex.def Info: images/TEC-w.png  used on input line 130.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [10]
-File: images/TEC-w.png Graphic file (type png)
-<use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 100.
-(pdftex.def)             Requested size: 144.54pt x 72.27461pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.100 
-      ]) 
+ [11])
+File: images/MW.jpg Graphic file (type jpg)
+<use images/MW.jpg>
+Package pdftex.def Info: images/MW.jpg  used on input line 81.
+(pdftex.def)             Requested size: 443.57848pt x 147.4993pt.
+ 
 AED: lastpage setting LastPage
 File: images/TEC-w.png Graphic file (type png)
 <use images/TEC-w.png>
-Package pdftex.def Info: images/TEC-w.png  used on input line 96.
+Package pdftex.def Info: images/TEC-w.png  used on input line 84.
 (pdftex.def)             Requested size: 144.54pt x 72.27461pt.
-[12] (main.aux)
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 \end{document}
+                   ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 665C50EED49E3FD2DF28D8C8D86C01EE;950.
  ) 
 Here is how much of TeX's memory you used:
- 32447 strings out of 478927
- 637983 string characters out of 2852535
- 1252279 words of memory out of 3000000
- 49567 multiletter control sequences out of 15000+600000
+ 32452 strings out of 478927
+ 638069 string characters out of 2852535
+ 1252495 words of memory out of 3000000
+ 49570 multiletter control sequences out of 15000+600000
  418874 words of font info for 85 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  107i,14n,111p,759b,1105s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\glacy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 1095.pk><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
@@ -8901,9 +8898,9 @@ pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb><C:/Users/glacy/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (15 pages, 9946656 bytes).
+Output written on main.pdf (15 pages, 9947794 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,6 +42,21 @@ E.~{Hubble} and M.~L. {Humason}.
 \newblock \emph{Astrophysical Journal}, 74:\penalty0 43, July 1931.
 \newblock \doi{10.1086/143323}.
 \newblock URL \url{https://ui.adsabs.harvard.edu/abs/1931ApJ....74...43H}.
+
+\bibitem[Jarosik et~al.(2011)Jarosik, Bennett, Dunkley, Gold, Greason, Halpern,
+  Hill, Hinshaw, Kogut, Komatsu, Larson, Limon, Meyer, Nolta, Odegard, Page,
+  Smith, Spergel, Tucker, Weiland, Wollack, and Wright]{Jarosik_2011}
+N.~Jarosik, C.~L. Bennett, J.~Dunkley, B.~Gold, M.~R. Greason, M.~Halpern,
+  R.~S. Hill, G.~Hinshaw, A.~Kogut, E.~Komatsu, D.~Larson, M.~Limon, S.~S.
+  Meyer, M.~R. Nolta, N.~Odegard, L.~Page, K.~M. Smith, D.~N. Spergel, G.~S.
+  Tucker, J.~L. Weiland, E.~Wollack, and E.~L. Wright.
+\newblock {SEVEN}-{YEAR} {WILKINSON} {MICROWAVE} {ANISOTROPY} {PROBE} ( {WMAP}
+  ) {OBSERVATIONS}: {SKY} {MAPS}, {SYSTEMATIC} {ERRORS}, {AND} {BASIC}
+  {RESULTS}.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 192\penalty0
+  (2):\penalty0 14, jan 2011.
+\newblock \doi{10.1088/0067-0049/192/2/14}.
+\newblock URL \url{https://doi.org/10.1088/0067-0049/192/2/14}.
 
 \bibitem[{Khetan, Nandita} et~al.(2021){Khetan, Nandita}, {Izzo, Luca},
   {Branchesi, Marica}, {Wojtak, Radoslaw}, {Cantiello, Michele}, {Murugeshan,
