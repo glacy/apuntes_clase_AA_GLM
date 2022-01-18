@@ -24,6 +24,7 @@
 %\usepackage{pgfplots}
 %\usepgflibrary{decorations.pathmorphing}
 \usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.multipart}
 %\usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{tabulary}
@@ -70,6 +71,7 @@
 \setlength{\epigraphwidth}{0.8\textwidth}
 
 \renewcommand{\familydefault}{\sfdefault}
+\setlength{\epigraphwidth}{1.5\textwidth}
 \newcommand{\epigraphrulecolor}{c5}
 \makeatletter
 \renewcommand{\@epirule}{{\color{\epigraphrulecolor}\rule[.5ex]{\epigraphwidth}{\epigraphrule}}}
@@ -119,6 +121,7 @@
 \dottedcontents{subsection}[5em]{}{3em}{1pc}
 \renewcommand{\contentsname}{\centering Contenidos}
 \renewcommand{\tablename}{Tabla} 
+\renewcommand{\figurename}{Figura} 
 \newcommand{\Mbox}[1]{\mbox{\scriptsize{#1}}}
 \newcommand{\Textit}[1]{\textsf{\textcolor{c2}{#1}}}
 \makeatletter

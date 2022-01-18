@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Cosmolog\'ia y Galaxias}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Cosmolog\'ia}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Teor\'ia General de la Relatividad}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Formación galáctica}{5}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Tipos de galaxias}{7}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Enlaces de inter\'es}{9}{section.2}%
+\contentsline {subsection}{\numberline {1.2}Teor\'ia General de la Relatividad}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Formación galáctica}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Tipos de galaxias}{8}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Enlaces de inter\'es}{10}{section.2}%
 \contentsfinish 
